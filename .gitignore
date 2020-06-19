@@ -21,3 +21,7 @@
 ## Mac OS X metadata files:
 *.DS_Store
 
+out/
+!out/coverletter.pdf
+!out/resume.pdf
+
