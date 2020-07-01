@@ -24,4 +24,5 @@
 out/
 !out/coverletter.pdf
 !out/resume.pdf
+**/*.fdb_latexmk
 
