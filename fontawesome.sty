@@ -6,10 +6,10 @@
 \ProvidesPackage{fontawesome}[2016/11/23 v4.7.0 font awesome icons]
 
 % Requirements to use.
-\usepackage{fontspec}
+\defaultfontfeatures{
+    Path = /usr/local/texlive/2013/texmf-dist/fonts/opentype/public/fontawesome/ }
+\usepackage{fontawesome}
 
-% Define shortcut to load the Font Awesome font.
-\newfontfamily{\FA}{FontAwesome}
 % Generic command displaying an icon by its name.
 \newcommand*{\faicon}[1]{{
   \FA\csname faicon@#1\endcsname

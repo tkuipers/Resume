@@ -1,7 +1,7 @@
 .PHONY: coverletter.pdf resume.pdf
 
 CC = xelatex
-OUTPUT_DIR = out
+OUTPUT_DIR = out/
 RESUME_DIR = resume
 COVERLETTER_DIR = coverletter
 RESUME_SRCS = $(shell find $(RESUME_DIR) -name '*.tex')
