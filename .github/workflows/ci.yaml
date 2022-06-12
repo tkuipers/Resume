@@ -24,6 +24,8 @@ jobs:
             resume.tex
             coverletter.tex
           compiler: xelatex
+      - name: List the directory
+        command: ls
       
       - name: Upload Artifact 🪄
         uses: actions/upload-artifact@v2
