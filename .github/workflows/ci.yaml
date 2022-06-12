@@ -3,7 +3,7 @@ name: ci
 on:
   push:
     branches:
-      - main
+      '**'
 
 concurrency:
   group: environment-${{ github.ref }}
@@ -14,24 +14,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout 🛎
+      - name: Checkout 🔽
         uses: actions/checkout@master
 
-      - name: Build latex files 📜
+      - name: Build resume 📜
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: |
-            resume.tex
-            coverletter.tex
+          root_file: resume.tex
           compiler: xelatex
-      - name: List the directory
-        run: ls
       
-      - name: Upload Artifact 🪄
+      - name: Build cover letter 📜
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: coverletter.tex
+          compiler: xelatex
+      
+      - name: Upload Artifact ⬆️
         uses: actions/upload-artifact@v2
         with: 
-          name: dist
-          path: dist/
+          name: Resume.pdf
+          path: resume.pdf
+
+      - name: Upload Artifact ⬆️
+        uses: actions/upload-artifact@v2
+        with: 
+          name: CoverLetter.pdf
+          path: coverletter.pdf
   
   # deploy:
   #   name: Deploy
