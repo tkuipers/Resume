@@ -1,0 +1,21 @@
+\cvsection{Projects}
+
+\begin{cventries}
+    \cventry 
+        {}
+        {Stock Guesser}
+        {}
+        {}
+        {
+            This project pulls news articles and stock information about specific tickers from the internet nightly.  
+            It runs the article through IBM's tone analyzer and uses the result to train a small neural network.  
+            The network attempts to correlate the tone of a particular article to a stock's outcome over the next day.  
+            A user is then able to enter a stock ticker, and the program will pull the most recent article it can find 
+            for that company, and attempt to predict whether the stock will go up or down the next day.
+            \linebreak
+            \linebreak
+            It is implemented in python, using GitHub actions to train and deploy the program to EC2 and Lambdas on AWS weekly.
+            You can check it out at \url{https://tkuipers.ca}
+        }
+    
+\end{cventries}
