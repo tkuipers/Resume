@@ -1,0 +1,220 @@
+---
+description: When looking for my experience and qualifications to fill out the resume
+alwaysApply: false
+---
+# Career History - Source of Truth
+
+## Purpose
+This document is the authoritative source for my career history and qualifications. Use it to tailor resume content to specific job postings. All dates, titles, and accomplishments here are accurate.  This is the source of truth for my career history and qualifications.
+
+---
+
+## My Goals
+
+- Grow into a Staff Engineer role.
+- Grow into a leadership role.
+- Learn from the people I work with.
+- Progress from Senior Engineer into a Staff Engineer role by owning system-level design and leading cross-team technical initiatives.
+- Grow into engineering leadership roles (Staff+, Principal, CTO, or Founding Engineer) with responsibility for technical strategy and execution.
+- Deliver scalable, reliable systems that create clear business impact (cost reduction, revenue enablement, or time-to-market improvements).
+- Mentor and develop other engineers, raising team technical standards and effectiveness.
+- Continue expanding depth in distributed systems, cloud architecture, and DevOps practices through hands-on work and learning from peers.
+
+---
+
+## Experience
+
+### AMA - Alberta Motor Association
+**Role:** Software Architect  
+**Dates:** January 2023 - Present (3 years 1 month)  
+**Location:** Edmonton, Alberta, Canada  
+**Technologies:** AWS, Terraform, Java, Python, Jenkins, Docker, Git, GitHub, OpenAPI, Gosu, Typescript, Playwright
+
+**Summary:** Working as a Software Architect on AMA's insurance systems.
+
+**Accomplishments:**
+- Architected chatbot integration for automated phone payments across multiple internal and external teams.
+- Architected and developed cloud architecture across mutliple aws accounts and regions (including external partners) for AMA's pay-as-you-go insurance policy, accounting for >1400 new policies sold in the first 4 months. (AWS, Terraform, Java)
+- Architected and helped implement large updates to online payment system, enabling omnichannel experience with insurance policies.
+- Architected and implemented devops platform enabling single-command creation of testing environments and database snapshots, reducing environment provisioning time by >90% and accelerating production issue diagnosis from weeks to hours. (AWS, Terraform, Python, Jenkins, Docker, Git)
+- Architected and developed insurance platform's RESTful APIs to enable online auto sales platform. (OpenAPI, Gosu, Typescript, Playwright)
+- Architected and developed an overhaul of the insurance platform's document generation system from legacy, outdated, C# to a modern, k8s based, high availability C# system, integrating datadog, CI/CD, gitops, and other modern devops practices. (C#, k8s, datadog, CI/CD, gitops)
+- Code reviewing and testing patches submitted by other developers. (Git, GitHub)
+- Improved, enforced, and gathered feedback on coding standards across insurance development team, resulting in increased code maintainability and reliability.
+- Helped new developers learn how to approach legacy code throughout the insurance platform.
+
+---
+
+### Vinted
+**Role:** Software Developer  
+**Dates:** October 2022 - December 2022 (3 months)  
+**Location:** Berlin, Germany  
+**Technologies:** Ruby on Rails, Shopify
+
+**Summary:** Worked as a Software Developer on Vinted's shipping platform.
+
+**Accomplishments:**
+- Worked on high level design and implementation of a new shipping platform. (Ruby on Rails, Shopify)
+- Wrote automated tests for the new shipping platform.
+
+---
+
+### Arterys
+**Role:** Software Developer  
+**Dates:** August 2021 - August 2022 (1 year 1 month)  
+**Location:** Edmonton, Alberta, Canada  
+**Technologies:** Typescript, NodeJS, AWS, Chef, Redis, Git, GitHub, Elastic, FullStory, Kibana
+
+**Summary:** Worked as a Software Developer on Arterys' core platform.
+
+**Accomplishments:**
+- Various bug fixes and feature enhancements throughout the product. (Typescript, NodeJS)
+- Worked to lower turn-around-time on results of AI algorithms. (AWS, Chef, Redis)
+- Code reviewing and testing patches submitted by other developers. (Git, GitHub)
+- Monitored logs and health checking platforms for problems before clients were impacted. (Elastic, FullStory, Kibana)
+
+---
+
+### AMA - Alberta Motor Association
+**Role:** Software Development Team Lead  
+**Dates:** February 2021 - July 2021 (6 months)  
+**Location:** Edmonton, Alberta, Canada  
+**Technologies:** Gosu, Guidewire, Git, Ant, Docker, Java
+
+**Summary:** Led software development team on insurance platform.
+
+**Accomplishments:**
+- Daily work completed in Gosu (a JVM language) on the Guidewire framework.
+- Completed daily tasks using TDD methodology.
+- Performed Scrum Master role on projects delivered on time and budget with no critical defects post-launch.
+- Designed and programmed test framework currently used to run integration tests; changes contributed to 30% drop in defects on subsequent projects.
+- Planned and implemented solutions for online payment on AMA's website, utilizing third-party APIs and Guidewire.
+- Led transition from SVN to Git.
+- Created Docker image for use with Guidewire instance.
+- Hosted training sessions around TDD, unit tests, and methodology for coworkers.
+
+---
+
+### AMA - Alberta Motor Association
+**Role:** Senior Software Developer  
+**Dates:** July 2020 - February 2021 (8 months)  
+**Location:** Edmonton, Alberta, Canada  
+**Technologies:** Gosu, Guidewire, Git, Ant, Docker, Java
+
+**Summary:** Senior developer on insurance platform.
+
+**Accomplishments:**
+- Daily work completed in Gosu (a JVM language) on the Guidewire framework.
+- Completed daily tasks using TDD methodology.
+- Performed Scrum Master role on projects delivered on time and budget with no critical defects post-launch.
+- Designed and programmed test framework currently used to run integration tests; changes contributed to 30% drop in defects on subsequent projects.
+- Planned and implemented solutions for online payment on AMA's website, utilizing third-party APIs and Guidewire.
+- Led transition from SVN to Git.
+- Created Docker image for use with Guidewire instance.
+- Hosted training sessions around TDD, unit tests, and methodology for coworkers.
+
+---
+
+### AMA - Alberta Motor Association
+**Role:** Software Developer  
+**Dates:** June 2018 - July 2020 (2 years 2 months)  
+**Location:** Edmonton, Alberta, Canada  
+**Technologies:** Gosu, Guidewire, Git, Ant, Docker, Java
+
+**Summary:** Software developer on insurance platform.
+
+**Accomplishments:**
+- Daily work completed in Gosu (a JVM language) on the Guidewire framework.
+- Completed daily tasks using TDD methodology.
+- Performed Scrum Master role on projects delivered on time and budget with no critical defects post-launch.
+- Designed and programmed test framework currently used to run integration tests; changes contributed to 30% drop in defects on subsequent projects.
+- Planned and implemented solutions for online payment on AMA's website, utilizing third-party APIs and Guidewire.
+- Led transition from SVN to Git.
+- Created Docker image for use with Guidewire instance.
+- Hosted training sessions around TDD, unit tests, and methodology for coworkers.
+
+---
+
+### Pleasant Solutions
+**Role:** Software Developer  
+**Dates:** January 2018 - June 2018 (6 months)  
+**Location:** Edmonton, Canada Area  
+**Technologies:** C#, .NET, MVC, HTML, JavaScript, C# Razor, XAML, REST, Git, Moq, NUnit
+
+**Summary:** Software developer working on .NET applications.
+
+**Accomplishments:**
+- Daily work completed in C# .NET, heavily utilizing MVC design pattern.
+- Gained experience in leadership roles for small projects.
+- Used TDD methodologies to complete tasks.
+- Completed front-end work in mix of C# and HTML/JS using C# Razor.
+- Advanced skills in Windows C# toolchain, REST endpoints, XAML, HTML, JS, Git, Moq, and NUnit Framework.
+
+---
+
+### Lockheed Martin
+**Role:** Associate Software Engineer  
+**Dates:** January 2017 - December 2017 (1 year)  
+**Location:** Not specified  
+**Technologies:** Java, Git, SQL, Bash, JUnit, Java Mocking Frameworks
+
+**Summary:** Associate software engineer on defense systems.
+
+**Accomplishments:**
+- Contributed to implementation of mission-critical software such as Data Fusion module for Combat Management Systems.
+- Worked with team to develop software modules responsible for management and status of various underwater sensors.
+- Worked in Agile SCRUM environment.
+- Completed daily work using TDD methodologies.
+- Advanced skills in Java, Git, SQL, Bash, JUnit, and Java Mocking Frameworks.
+
+---
+
+### The King's University
+**Role:** Software Developer  
+**Dates:** May 2014 - September 2016 (2 years 5 months)  
+**Location:** Not specified  
+**Technologies:** PHP, HTML, JavaScript, jQuery, PostgreSQL, PostGIS
+
+**Summary:** Software developer on research web application.
+
+**Accomplishments:**
+- Designed and built website for researchers to input information; viewers could see and explore the data.
+- Researched method utilized and authored undergraduate thesis documenting contribution to Edmonton River Atlas Website.
+- Advanced skills in PHP, HTML, JavaScript and jQuery, PostgreSQL, and PostGIS.
+
+---
+
+## Education
+
+### The Open University
+**Degree:** Master's degree, Computing (Software Engineering)  
+**Dates:** May 2024 - May 2027 (In Progress)
+
+### The King's University
+**Degree:** Bachelor of Science - BS, Computer Science  
+**Dates:** September 2012 - December 2016
+
+---
+
+## Side Projects
+> Note: Do not include in resume work experience, but can reference technologies in summary section or skills.
+
+### Homelab
+**URL:** https://github.com/tkuipers/homelab  
+**Technologies:** Kubernetes, TalosLinux, Docker  
+**Description:** Running a small homelab on TalosLinux (k8s native linux) that runs a variety of services including my own website.
+
+### Stock Guesser
+**URL:** https://github.com/tkuipers/stock-guesser  
+**Technologies:** Python, FastAPI, PostgreSQL  
+**Description:** A small project that uses IBM's tone analyzer to analyze news articles and predict the stock price of a given company.
+
+### GameScale
+**URL:** https://github.com/pteronimbus/pteronimbus  
+**Technologies:** Kubernetes, Docker, Go, Kubernetes API, Networking  
+**Description:** A kubernetes native project that allows for self hosting game servers on k8s clusters easily. Long term goal is to make a competitor for pterodactyl that is more flexible, easier to use, and integrates more strongly with other services like discord, slack, and other commonly used services among gamers.
+
+### Tree Mutator
+**URL:** https://github.com/obrasa/tree-mutator  
+**Technologies:** Python, tree-sitter, Kubernetes, Docker  
+**Description:** A python project that allows for the mutation of syntax trees across many languages. Built on top of tree-sitter, this allows for syntactically correct mutation of code across different languages, enabling easier mutation testing across different projects.
