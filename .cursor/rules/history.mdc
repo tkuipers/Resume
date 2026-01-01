@@ -24,7 +24,38 @@ This document is the authoritative source for my career history and qualificatio
 
 ## Notes & Preferences
 
+- **NO EM DASHES. EVER.** Do not use "—" or "---" in any resume or cover letter content. They are an obvious tell that something is AI-written. Use colons, periods, commas, or rewrite the sentence instead.
+
 - **ELK (Elasticsearch, Logstash, Kibana)**: Used it but never set it up from scratch. Don't claim "strong" experience - say "experience with" or just list in technologies without emphasis.
+
+## Writing Style & Tone
+
+The goal is **pleasant to read, like a person wrote it**. Not robotic, not overcorrected.
+
+**For the summary (About Me):**
+- Write in first person with full sentences
+- Conversational but professional ("I've been writing software for about 10 years")
+- Can mention what you care about ("I like making it easier for teams to ship")
+
+**For experience bullets:**
+- Can start with verbs, but don't force variety just to avoid repetition
+- Natural repetition is fine (humans repeat themselves)
+- Keep specifics: numbers, project names, tech in parentheses
+- Short sentences are okay. So are longer ones. Mix is good.
+- Avoid stiff phrasing, but don't go too casual either ("infra tweaks" is too slangy)
+- "Lots of code reviews and pairing" reads human. "Performed code reviews and pair programming sessions" does not.
+
+**For cover letters:**
+- First person, conversational
+- Vary sentence starts (don't begin every paragraph with "I'm")
+- Okay to show personality ("I've been on both sides, building the tooling and being the frustrated developer")
+- End warmly but briefly ("I'd be happy to talk more")
+
+**Avoid:**
+- Buzzwords: leverage, optimize, robust, dynamic, comprehensive, seamlessly
+- Hedging: "contributed to," "helped with," "assisted in"
+- Over-formality: "Furthermore," "Moreover," "It's worth noting"
+- Em dashes (use colons, periods, or commas instead)
 
 ---
 

@@ -3,6 +3,30 @@ description: When reworking experience or other parts of the resume
 alwaysApply: false
 ---
 
+## Writing Style
+
+**Goal: Pleasant to read, like a person wrote it.**
+
+- **NO EM DASHES. EVER.** Do not use "—" or "---" anywhere. They are an obvious AI tell. Use colons, periods, commas, or rewrite the sentence instead.
+
+- **Don't overcorrect.** Natural repetition is fine. Humans repeat themselves. Don't force variety just to avoid patterns.
+
+- **Bullets can be direct.** Start with verbs when it fits. Short sentences are fine. Mix in longer ones.
+
+- **Avoid stiff phrasing.** "Lots of code reviews and pairing" is good. "Performed code reviews and pair programming sessions" is not.
+
+- **But don't go too casual.** "Infra tweaks" is too slangy for a resume. "Infrastructure changes" is fine.
+
+- **Summary should read like a person talking.** First person, full sentences, conversational. "I've been writing software for about 10 years" not "Software engineer with 10+ years of experience."
+
+- **Cover letters: warm but brief.** Show personality. Vary sentence starts. Use complete sentences throughout. End with something like "I'd be happy to talk more."
+
+- **Avoid buzzwords:** leverage, optimize, robust, dynamic, comprehensive, seamlessly, pivotal, crucial
+
+- **Avoid hedging:** "contributed to," "helped with," "assisted in" (claim ownership when true)
+
+- **Avoid over-formality:** "Furthermore," "Moreover," "It's worth noting"
+
 ## Accuracy Standards
 
 - Never fabricate experience, skills, or accomplishments

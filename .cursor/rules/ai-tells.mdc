@@ -1,0 +1,66 @@
+---
+alwaysApply: true
+---
+
+## AI Writing Tells to Avoid (2025-2026)
+
+**Why this matters**: 74% of recruiters claim to identify AI-generated resumes; 53% have reservations about AI content; 20% consider it disqualifying. Detection tools (Winston AI, GPTZero) now exceed 95% accuracy by analyzing "perplexity" (predictability) and "burstiness" (sentence length variation).
+
+---
+
+### Flagged Words - Do Not Use
+
+**Why flagged**: Academic studies (PubMed 2020-2024, FSU 2025) tracked word frequency before/after ChatGPT release. These words showed statistically significant spikes—some 10x+ increase—making them reliable AI signatures. Detectors weight these heavily.
+
+| Category | Words | Why problematic |
+|----------|-------|-----------------|
+| LLM favorites | delve, underscore, meticulous, commendable, notable | Rare in human writing pre-2023; now hallmarks of AI |
+| Filler intensifiers | pivotal, crucial, vital, undoubtedly, arguably | AI hedges by making everything sound important |
+| Abstract metaphors | tapestry, landscape, realm, paradigm, framework | AI avoids specifics; these let it sound meaningful without saying anything |
+| Corporate buzzwords | leverage, optimize, harness, robust, dynamic, elevate, foster, catalyst, seamlessly, strategically | AI trained on business content over-indexes on MBA-speak |
+| Resume clichés | comprehensive, intricate, garner, boast, surpass, embark | Generic achievement language that could apply to anyone |
+
+---
+
+### Flagged Phrases - Do Not Use
+
+**Why flagged**: AI generates safe, non-committal, universally-applicable text. These phrases pad word count without adding information—a pattern detectors recognize.
+
+| Phrase type | Examples | Why problematic |
+|-------------|----------|-----------------|
+| Empty descriptors | "results-driven professional," "dynamic self-starter," "team player" | Says nothing specific; could describe anyone |
+| Hedging intros | "It's important to note," "It's worth mentioning" | AI's way of introducing points without committing to them |
+| Grandiose framing | "Navigate the complexities," "In the fast-paced world of," "Rich tapestry of," "Embark on a journey" | AI compensates for lack of real detail with dramatic language |
+| Formal transitions | "Furthermore," "Moreover," "Additionally" as sentence starters | Human writers rarely start sentences this way; feels like a term paper |
+| Scope inflation | "A wide range of," "comprehensive suite of" | Vague scale claims instead of specifics |
+
+---
+
+### Structural Red Flags
+
+**Why flagged**: Detectors measure "burstiness"—humans naturally vary sentence length and structure. AI produces unnaturally consistent patterns.
+
+| Pattern | Why it signals AI |
+|---------|-------------------|
+| Uniform sentence length | Humans mix short punchy statements with longer explanations. AI averages out. |
+| Overly formal tone | No contractions, no personality. AI defaults to safe/neutral. |
+| Generic accomplishments | "Improved efficiency" without numbers, project names, or context. AI can't invent specifics. |
+| Over-explanation | AI explains obvious things because it doesn't know what readers already understand. |
+| Perfect parallel structure | Every bullet starting with past-tense verb, same rhythm. Too consistent. |
+| Keyword stuffing | AI optimizes for ATS by cramming terms unnaturally. Recruiters notice. |
+| Hedging verbs | "helped to," "assisted with," "contributed to"—AI avoids claiming direct ownership. |
+
+---
+
+### What Passes as Human
+
+**Why this works**: These patterns have low perplexity (unexpected) and high burstiness (varied), which detectors associate with human writing.
+
+| Pattern | Why it reads as human |
+|---------|----------------------|
+| Specific numbers, dates, project names | AI can't fabricate real details; specificity signals authenticity |
+| Imperfect but clear phrasing | Minor awkwardness is human; AI is too polished |
+| Industry shorthand/acronyms | "K8s," "CI/CD," "P0 incident"—jargon AI uses cautiously |
+| Concrete actions + measurable outcomes | "Reduced deploy time from 45min to 8min" not "optimized deployment processes" |
+| Occasional sentence fragments | Bullets don't need to be complete sentences. AI over-formalizes. |
+| Natural voice | How you'd actually explain the work to a colleague |
