@@ -22,12 +22,14 @@ jobs:
         with:
           root_file: resume.tex
           compiler: xelatex
+          extra_fonts: "./fonts/*.ttf"
 
       - name: Build cover letter 📜
         uses: xu-cheng/latex-action@v3
         with:
           root_file: coverletter.tex
           compiler: xelatex
+          extra_fonts: "./fonts/*.ttf"
 
       - name: Upload Artifact ⬆️
         uses: actions/upload-artifact@v4
