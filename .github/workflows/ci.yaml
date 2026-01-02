@@ -23,6 +23,7 @@ jobs:
           root_file: resume.tex
           compiler: xelatex
           extra_fonts: "./fonts/*.ttf"
+          texlive_version: 2023
 
       - name: Build cover letter 📜
         uses: xu-cheng/latex-action@v3
@@ -30,6 +31,7 @@ jobs:
           root_file: coverletter.tex
           compiler: xelatex
           extra_fonts: "./fonts/*.ttf"
+          texlive_version: 2023
 
       - name: Upload Artifact ⬆️
         uses: actions/upload-artifact@v4
