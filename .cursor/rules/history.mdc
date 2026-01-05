@@ -64,20 +64,68 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 **Role:** Software Architect  
 **Dates:** January 2023 - Present (3 years 1 month)  
 **Location:** Edmonton, Alberta, Canada  
-**Technologies:** AWS, Terraform, Java, Python, Jenkins, Docker, Git, GitHub, OpenAPI, Gosu, Typescript, Playwright
+**Technologies:** AWS (EC2, S3, Lambda, EKS, Route53, SQS, IAM, Aurora/RDS, ECR), Terraform, Java, Python, Jenkins, Docker, Git, GitHub, OpenAPI, Gosu, TypeScript, Playwright, Kubernetes, Helm, Datadog, Linkerd
+**Team:** 12 developers reporting to me for architectural decisions
 
-**Summary:** Working as a Software Architect on AMA's insurance systems.
+**Summary:** Software Architect responsible for system-level architecture, API design, and technical leadership across AMA's insurance platform. Own API contracts, approve new endpoint additions, and set technical direction for engineering team.
 
 **Accomplishments:**
-- Architected chatbot integration for automated phone payments across multiple internal and external teams.
-- Architected and developed cloud architecture across mutliple aws accounts and regions (including external partners) for AMA's pay-as-you-go insurance policy, accounting for >1400 new policies sold in the first 4 months. (AWS, Terraform, Java)
-- Architected and helped implement large updates to online payment system, enabling omnichannel experience with insurance policies.
-- Architected and implemented devops platform enabling single-command creation of testing environments and database snapshots, reducing environment provisioning time by >90% and accelerating production issue diagnosis from weeks to hours. (AWS, Terraform, Python, Jenkins, Docker, Git)
-- Architected and developed insurance platform's RESTful APIs to enable online auto sales platform. (OpenAPI, Gosu, Typescript, Playwright)
-- Architected and developed an overhaul of the insurance platform's document generation system from legacy, outdated, C# to a modern, k8s based, high availability C# system, integrating datadog, CI/CD, gitops, and other modern devops practices. (C#, k8s, datadog, CI/CD, gitops)
-- Code reviewing and testing patches submitted by other developers. (Git, GitHub)
-- Improved, enforced, and gathered feedback on coding standards across insurance development team, resulting in increased code maintainability and reliability.
-- Helped new developers learn how to approach legacy code throughout the insurance platform.
+
+#### MyPace Pay-As-You-Go Insurance Product (Flagship Project)
+- Architected Canada's first pay-as-you-go auto insurance platform across 2 major AWS accounts and 3 external partner integrations (Replicant, Stripe, IMS).
+- **Won 2024 Guidewire Innovation Award** (1 of 3 worldwide winners). Press: https://ir.guidewire.com/news-releases/news-release-details/guidewire-congratulates-2024-innovation-award-winners-alberta
+- **Business Impact:** Product generated $4.3M in annual revenue, processed 76,637 invoices across 5,566 policies (avg $766/policy).
+- **Technical Details:** 10 Lambda functions, multi-account AWS architecture, 99.9% uptime since mid-2024 launch, 1 minor outage early on.
+- **Compliance:** Built within organization's existing SOC 2 compliant environment.
+- Technologies: AWS, Terraform, Lambda, Python, TypeScript
+
+#### REST API Architecture & Ownership
+- Own and maintain 4 critical REST APIs: Policy Quote API, Policy Bind API, Billing API, and MyPace ingestion API.
+- APIs serve 5 internal teams and external partners: epinks, DMED, Replicant, App team, Billing team.
+- **Business Impact:** APIs process $4.3M in annual transactions (MyPace alone).
+- **Technical Authority:** Approve all new endpoint additions (teams can modify existing endpoints without approval), maintain API design standards documented in Confluence.
+- Designed API contracts, versioning strategies, and integration patterns for downstream teams.
+- Technologies: OpenAPI, Python, TypeScript, REST
+
+#### DevOps Platform (Built Solo)
+- Built self-service infrastructure platform that reduced environment provisioning from 2-3 weeks to 2 hours (60x improvement).
+- **Organizational Impact:** Unblocked 5-10 major initiatives in 2025, adopted by 12 engineers across 2 teams.
+- **Usage Metrics:** Platform created 120+ environments in 2025 (10/month average).
+- **Concrete Example:** Enabled production bug diagnosis in hours vs weeks. Critical cancellation bug that couldn't be duplicated was resolved in days instead of weeks by using snapshotted production data.
+- **Features:** Environment create/destroy, database snapshots, pull-from-prod functionality, snapshot listing, ADO metrics integration.
+- **Timeline:** Built in 2024, actively maintained through December 2025.
+- Technologies: Python, Terraform, AWS, Jenkins, Docker
+
+#### Automated Phone Payment System (Chatbot Integration)
+- Architected backend services for automated phone payment system coordinating across 2 internal teams and 2 external partners.
+- Integrated Stripe payment processing with Replicant chatbot platform.
+- **Timeline:** Designed May 2025, launched December 2, 2025.
+- **Reliability:** Zero failures since launch, fault-tolerant architecture handles errors gracefully.
+- Technologies: Python, AWS, Stripe API
+
+#### Document Generation System Rewrite
+- Architected modernization of document generation system from legacy C# to containerized microservices on EKS.
+- **Scope:** System generates all document types: policy docs, renewal docs, claims docs, billing notifications, dunning letters, and more.
+- **Architecture:** 4-5 microservices (including sidecars) deployed on 3-5 node EKS cluster using Helm.
+- **Observability:** Integrated Datadog with metrics for doc failure count, success count, generation time, and storage time.
+- **Impact:** Old system had frequent outages and required 2-3 weeks to provision new environments (error-prone manual process). New system eliminates outages and enables rapid environment creation.
+- **Team:** Led 2-3 engineers on this project.
+- **Timeline:** August 2024 - January 2026 (with some mothballing mid-project).
+- Technologies: C# 8, Kubernetes (EKS), Docker, Datadog, Helm, CI/CD, GitOps
+
+#### Technical Leadership & Standards
+- Set and enforce coding standards for 12-person development team through manual code reviews and documented guidelines.
+- **Documentation:** Wrote PR checklists, API design guides, and 5-10 RFCs in the last year.
+- **Code Reviews:** Review 2-3 PRs per month (lower volume due to team working in different codebases).
+- **Cross-Team Decisions:** Drove technical decisions that multiple teams follow, including error handling and sanitization standards for personal auto sales online project.
+- **Mentoring:** Helped new developers navigate legacy codebases, trained 5-6 developers on TDD methodologies.
+- Technologies: Git, GitHub, Confluence
+
+#### Kubernetes & Infrastructure
+- Deployed and maintain production EKS cluster running: cert-manager, Datadog, Karpenter, Linkerd (service mesh), and document generation services.
+- Designed subnet configurations within VPCs (VPCs managed by cloud ops team for security).
+- Write IAM policies and manage AWS service configurations across multiple accounts.
+- Technologies: EKS, Kubernetes, Helm, Linkerd, Datadog, Terraform
 
 ---
 
@@ -85,29 +133,31 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 **Role:** Software Developer  
 **Dates:** October 2022 - December 2022 (3 months)  
 **Location:** Berlin, Germany  
-**Technologies:** Ruby on Rails, Shopify
+**Technologies:** Ruby on Rails, Shopify, Kubernetes, Docker
 
-**Summary:** Worked as a Software Developer on Vinted's shipping platform.
+**Summary:** Software developer working on Vinted's shipping platform microservices.
 
 **Accomplishments:**
-- Worked on high level design and implementation of a new shipping platform. (Ruby on Rails, Shopify)
-- Wrote automated tests for the new shipping platform.
+- Worked on design and implementation of shipping platform for integrating Vinted's internal shipping operations.
+- Wrote automated tests for carrier integrations.
+- **Note:** Role ended before features reached production (3-month stay). Limited production impact.
 
 ---
 
-### Arterys
+### Arterys (Acquired by Tempus Labs)
 **Role:** Software Developer  
 **Dates:** August 2021 - August 2022 (1 year 1 month)  
-**Location:** Edmonton, Alberta, Canada  
-**Technologies:** Typescript, NodeJS, AWS, Chef, Redis, Git, GitHub, Elastic, FullStory, Kibana
+**Location:** Calgary, Alberta, Canada (Remote)  
+**Technologies:** TypeScript, Node.js, AWS, Chef, Redis, Git, GitHub, Elasticsearch, Kibana
 
-**Summary:** Worked as a Software Developer on Arterys' core platform.
+**Summary:** Software developer on medical imaging AI platform.
 
 **Accomplishments:**
-- Various bug fixes and feature enhancements throughout the product. (Typescript, NodeJS)
-- Worked to lower turn-around-time on results of AI algorithms. (AWS, Chef, Redis)
-- Code reviewing and testing patches submitted by other developers. (Git, GitHub)
-- Monitored logs and health checking platforms for problems before clients were impacted. (Elastic, FullStory, Kibana)
+- Built and maintained backend services that ran medical AI algorithms and returned results to the platform.
+- Improved AI algorithm processing turnaround time using Redis caching and AWS infrastructure optimizations.
+- Monitored production systems via Elasticsearch and Kibana, catching and resolving issues before customer impact.
+- Code reviews and testing for team contributions.
+- **Note:** Specific metrics unavailable (too far back, limited access to historical data).
 
 ---
 
@@ -116,18 +166,20 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 **Dates:** February 2021 - July 2021 (6 months)  
 **Location:** Edmonton, Alberta, Canada  
 **Technologies:** Gosu, Guidewire, Git, Ant, Docker, Java
+**Team Size:** 5-6 developers
 
-**Summary:** Led software development team on insurance platform.
+**Summary:** Led software development team on insurance platform (Guidewire).
 
 **Accomplishments:**
-- Daily work completed in Gosu (a JVM language) on the Guidewire framework.
-- Completed daily tasks using TDD methodology.
-- Performed Scrum Master role on projects delivered on time and budget with no critical defects post-launch.
-- Designed and programmed test framework currently used to run integration tests; changes contributed to 30% drop in defects on subsequent projects.
-- Planned and implemented solutions for online payment on AMA's website, utilizing third-party APIs and Guidewire.
-- Led transition from SVN to Git.
-- Created Docker image for use with Guidewire instance.
-- Hosted training sessions around TDD, unit tests, and methodology for coworkers.
+- Led 5-6 person development team working in Gosu (JVM language) on Guidewire insurance platform.
+- Performed Scrum Master role, delivered projects on time and budget with no critical defects post-launch.
+- Designed and built automated test framework that reduced defects by 30% on subsequent projects (measured by bug count following releases).
+- **Test Framework Adoption:** Framework now used org-wide by all Guidewire projects, still in use 4+ years later.
+- Led Git migration for 12-15 developers transitioning from SVN.
+- Created Docker image for local Guidewire development environments.
+- Trained 5-6 developers on TDD methodologies through hosted training sessions.
+- Planned and implemented online payment integrations with third-party APIs.
+- Used TDD methodology for all development work.
 
 ---
 
@@ -140,14 +192,11 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 **Summary:** Senior developer on insurance platform.
 
 **Accomplishments:**
-- Daily work completed in Gosu (a JVM language) on the Guidewire framework.
-- Completed daily tasks using TDD methodology.
-- Performed Scrum Master role on projects delivered on time and budget with no critical defects post-launch.
-- Designed and programmed test framework currently used to run integration tests; changes contributed to 30% drop in defects on subsequent projects.
-- Planned and implemented solutions for online payment on AMA's website, utilizing third-party APIs and Guidewire.
-- Led transition from SVN to Git.
-- Created Docker image for use with Guidewire instance.
-- Hosted training sessions around TDD, unit tests, and methodology for coworkers.
+- Daily development in Gosu on Guidewire framework using TDD methodology.
+- Contributed to test framework design (see Team Lead role for impact metrics).
+- Worked on online payment integrations with third-party APIs.
+- Participated in Git migration planning and Docker environment setup.
+- Code reviews and mentoring junior developers.
 
 ---
 
@@ -160,14 +209,12 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 **Summary:** Software developer on insurance platform.
 
 **Accomplishments:**
-- Daily work completed in Gosu (a JVM language) on the Guidewire framework.
-- Completed daily tasks using TDD methodology.
-- Performed Scrum Master role on projects delivered on time and budget with no critical defects post-launch.
-- Designed and programmed test framework currently used to run integration tests; changes contributed to 30% drop in defects on subsequent projects.
-- Planned and implemented solutions for online payment on AMA's website, utilizing third-party APIs and Guidewire.
-- Led transition from SVN to Git.
-- Created Docker image for use with Guidewire instance.
-- Hosted training sessions around TDD, unit tests, and methodology for coworkers.
+- Daily development in Gosu on Guidewire framework.
+- Adopted and practiced TDD methodology for all work.
+- Performed Scrum Master role on select projects.
+- Contributed to design and implementation of test framework.
+- Worked on online payment features and third-party API integrations.
+- Participated in transition from SVN to Git.
 
 ---
 
@@ -180,28 +227,30 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 **Summary:** Software developer working on .NET applications.
 
 **Accomplishments:**
-- Daily work completed in C# .NET, heavily utilizing MVC design pattern.
+- Built HMI (Human-Machine Interface) for concrete plant control system using TDD methodology.
+- Daily work in C# .NET, heavily utilizing MVC design pattern.
 - Gained experience in leadership roles for small projects.
-- Used TDD methodologies to complete tasks.
-- Completed front-end work in mix of C# and HTML/JS using C# Razor.
-- Advanced skills in Windows C# toolchain, REST endpoints, XAML, HTML, JS, Git, Moq, and NUnit Framework.
+- Front-end work using C# Razor, HTML, and JavaScript.
+- Technologies: C#, .NET, MVC, REST, XAML, Git, Moq, NUnit
 
 ---
 
-### Lockheed Martin
+### Lockheed Martin Canada
 **Role:** Associate Software Engineer  
 **Dates:** January 2017 - December 2017 (1 year)  
-**Location:** Not specified  
+**Location:** Halifax, Nova Scotia, Canada  
 **Technologies:** Java, Git, SQL, Bash, JUnit, Java Mocking Frameworks
 
-**Summary:** Associate software engineer on defense systems.
+**Summary:** Associate software engineer on mission-critical defense systems (Combat Management Systems).
 
 **Accomplishments:**
-- Contributed to implementation of mission-critical software such as Data Fusion module for Combat Management Systems.
-- Worked with team to develop software modules responsible for management and status of various underwater sensors.
-- Worked in Agile SCRUM environment.
-- Completed daily work using TDD methodologies.
-- Advanced skills in Java, Git, SQL, Bash, JUnit, and Java Mocking Frameworks.
+- Contributed to Data Fusion module for Combat Management Systems, combining data from multiple underwater and above water sensor sources.
+- **Key Contribution:** Designed and implemented scenario "recorder" system that enabled re-running failed test scenarios at will, improving debugging and testing capabilities.
+- Co-authored technical whitepaper on Data Fusion implementation (details unavailable due to time/classification).
+- Worked with real-time sensor data streams.
+- Participated in sprint planning and early design decisions through team meetings.
+- Worked in Agile SCRUM environment using TDD methodologies.
+- Technologies: Java, SQL, Bash, JUnit, mocking frameworks
 
 ---
 
@@ -217,6 +266,63 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 - Designed and built website for researchers to input information; viewers could see and explore the data.
 - Researched method utilized and authored undergraduate thesis documenting contribution to Edmonton River Atlas Website.
 - Advanced skills in PHP, HTML, JavaScript and jQuery, PostgreSQL, and PostGIS.
+
+---
+
+## Compensation & Job Preferences
+
+**Target Compensation:** $185,000 CAD total compensation for next role
+
+**Work Preferences:**
+- **Location:** Remote preferred, hybrid accepted, onsite considered for right compensation
+- **Geographic:** Will not relocate, but open to companies anywhere (Canada, US, international) for remote roles
+- **Company Size:** Targeting 500-1000 engineers (mid-size companies)
+- **Industry:** Open to anything except insurance (ready to move on from insurance domain)
+
+**Target Roles:**
+- Staff Backend Engineer
+- Staff Platform Engineer
+- Senior II / Senior Staff Engineer
+- Principal Engineer (at smaller companies where this is equivalent to Staff at larger orgs)
+
+---
+
+## Technical Strengths & Depth
+
+**Primary Areas of Expertise:**
+- **Backend Systems & APIs:** 10+ years designing REST APIs, microservices, and distributed systems
+- **Cloud Architecture:** AWS (EC2, Lambda, EKS, RDS, S3, SQS, IAM, Route53, ECR), multi-account architectures
+- **Infrastructure & DevOps:** Terraform, Docker, Kubernetes (EKS), CI/CD, infrastructure automation
+- **System Design:** Distributed systems, event-driven architectures, service mesh (Linkerd)
+- **Observability:** Datadog, Elasticsearch/Kibana, metrics design, SLO/SLA definition
+
+**AWS Services Used Regularly:**
+EC2, S3, Lambda, EKS, Route53, SQS, IAM, Aurora/RDS, ECR
+
+**Kubernetes Experience:**
+- Production EKS clusters running: cert-manager, Datadog, Karpenter, Linkerd, document generation services
+- Helm for package management
+- Service mesh experience with Linkerd
+- Datadog integration for observability
+
+**Languages & Frameworks:**
+- **Primary:** Python, TypeScript, Java
+- **Experience With:** Gosu (JVM), C#, Ruby on Rails, Bash
+- **Databases:** PostgreSQL, Aurora/RDS, Redis
+- **APIs:** REST, OpenAPI/Swagger specification
+
+**Compliance & Security:**
+- SOC 2 compliant environments (organizational level)
+- IAM policy authoring
+- Subnet configuration within VPCs (VPCs managed by cloud ops)
+- Payment processing integrations (Stripe, PCI Considerationh)
+
+**Development Practices:**
+- Strong TDD practitioner (10+ years)
+- Test framework design and implementation
+- Code review processes
+- RFC and technical design documentation
+- API versioning and backward compatibility strategies
 
 ---
 
