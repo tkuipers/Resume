@@ -65,17 +65,19 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 **Dates:** January 2023 - Present (3 years 1 month)  
 **Location:** Edmonton, Alberta, Canada  
 **Technologies:** AWS (EC2, S3, Lambda, EKS, Route53, SQS, IAM, Aurora/RDS, ECR), Terraform, Java, Python, Jenkins, Docker, Git, GitHub, OpenAPI, Gosu, TypeScript, Playwright, Kubernetes, Helm, Datadog, Linkerd
-**Team:** 12 developers reporting to me for architectural decisions
+**Team:** 12 developers (technical lead for architectural decisions, not people manager)
 
-**Summary:** Software Architect responsible for system-level architecture, API design, and technical leadership across AMA's insurance platform. Own API contracts, approve new endpoint additions, and set technical direction for engineering team.
+**Summary:** Software Architect responsible for system-level architecture, API design, and technical leadership across AMA's insurance platform. Own API contracts, approve new endpoint additions, and provide architectural guidance for engineering team.
+
+**Note on Role:** Technical lead providing architectural guidance and decisions, not a people manager. Influence through technical expertise and RFC authorship rather than direct reports.
 
 **Accomplishments:**
 
 #### MyPace Pay-As-You-Go Insurance Product (Flagship Project)
-- Architected Canada's first pay-as-you-go auto insurance platform across 2 major AWS accounts and 3 external partner integrations (Replicant, Stripe, IMS).
+- Architected Canada's first pay-as-you-go auto insurance platform across 2 major AWS accounts with external partner integration (IMS).
 - **Won 2024 Guidewire Innovation Award** (1 of 3 worldwide winners). Press: https://ir.guidewire.com/news-releases/news-release-details/guidewire-congratulates-2024-innovation-award-winners-alberta
 - **Business Impact:** Product generated $4.3M in annual revenue, processed 76,637 invoices across 5,566 policies (avg $766/policy).
-- **Technical Details:** 10 Lambda functions, multi-account AWS architecture, 99.9% uptime since mid-2024 launch, 1 minor outage early on.
+- **Technical Details:** 10 Lambda functions, multi-account AWS architecture, 99.9% uptime since mid-2024 launch, 1 minor outage early on, 2.8 million insured trips processed to date.
 - **Compliance:** Built within organization's existing SOC 2 compliant environment.
 - Technologies: AWS, Terraform, Lambda, Python, TypeScript
 
@@ -90,34 +92,64 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 #### DevOps Platform (Built Solo)
 - Built self-service infrastructure platform that reduced environment provisioning from 2-3 weeks to 2 hours (60x improvement).
 - **Organizational Impact:** Unblocked 5-10 major initiatives in 2025, adopted by 12 engineers across 2 teams.
-- **Usage Metrics:** Platform created 120+ environments in 2025 (10/month average).
 - **Concrete Example:** Enabled production bug diagnosis in hours vs weeks. Critical cancellation bug that couldn't be duplicated was resolved in days instead of weeks by using snapshotted production data.
 - **Features:** Environment create/destroy, database snapshots, pull-from-prod functionality, snapshot listing, ADO metrics integration.
 - **Timeline:** Built in 2024, actively maintained through December 2025.
 - Technologies: Python, Terraform, AWS, Jenkins, Docker
 
 #### Automated Phone Payment System (Chatbot Integration)
-- Architected backend services for automated phone payment system coordinating across 2 internal teams and 2 external partners.
+- Architected backend services for automated phone payment system coordinating across 2 internal teams and 2 external partners (Replicant chatbot, Stripe payment processing).
 - Integrated Stripe payment processing with Replicant chatbot platform.
 - **Timeline:** Designed May 2025, launched December 2, 2025.
-- **Reliability:** Zero failures since launch, fault-tolerant architecture handles errors gracefully.
+- **Impact:** System improves advisor efficiency and customer experience by enabling automated phone-based payments.
+- **Reliability:** Fault-tolerant architecture handles errors gracefully.
 - Technologies: Python, AWS, Stripe API
+
+#### Personal Auto Sales Online (PASO)
+- Large multi-team project for online auto insurance sales with Stripe payment integration.
+- **Technical Leadership:** Drove technical decisions that multiple teams had to follow, including error handling and sanitization standards.
+- **Reliability:** No downtime and minimal bugs at launch despite poor sales results.
+- **Note:** Not featured prominently on resume due to poor business results, but demonstrates cross-team technical leadership.
+- Technologies: Gosu, Stripe API
 
 #### Document Generation System Rewrite
 - Architected modernization of document generation system from legacy C# to containerized microservices on EKS.
 - **Scope:** System generates all document types: policy docs, renewal docs, claims docs, billing notifications, dunning letters, and more.
 - **Architecture:** 4-5 microservices (including sidecars) deployed on 3-5 node EKS cluster using Helm.
 - **Observability:** Integrated Datadog with metrics for doc failure count, success count, generation time, and storage time.
-- **Impact:** Old system had frequent outages and required 2-3 weeks to provision new environments (error-prone manual process). New system eliminates outages and enables rapid environment creation.
+- **Impact:** Old system had frequent outages and required 2-3 weeks to provision new environments (error-prone manual process). New system significantly improved reliability and enables rapid environment creation.
 - **Team:** Led 2-3 engineers on this project.
 - **Timeline:** August 2024 - January 2026 (with some mothballing mid-project).
 - Technologies: C# 8, Kubernetes (EKS), Docker, Datadog, Helm, CI/CD, GitOps
 
+#### BCAA RV Underwriting Integration (Upcoming Feb-Apr 2026)
+- Authored RFC for cloud-native, event-driven pipeline to import BCAA's towable trailer policy data into AMA's PolicyCenter.
+- **Partnership:** AMA will underwrite BCAA's risks and administer claims on their behalf.
+- **Architecture:** S3 file reception → Kubernetes CronJob → Translation Service → PolicyCenter Cloud API (composite endpoint).
+- **Technical Design:** Streaming architecture (in-memory processing), OAuth 2.0 authentication, transactional API calls, Datadog monitoring.
+- **Infrastructure:** Containerized application on EKS, S3/Glacier archiving, IAM via OIDC for K8s service accounts.
+- **Security & Compliance:** Secure OAuth 2.0, no local file storage, audit trail via Datadog and PolicyCenter.
+- **Goals:** 100% success rate for valid data, 100% reconciliation, automated and reliable pipeline.
+- **Future-Proof:** Design enables potential future expansion for AMA to take on more policy lifecycle ownership.
+- Technologies: Kubernetes, AWS S3, Glacier, PolicyCenter Cloud API, OAuth 2.0, Datadog, XML parsing, Python
+
 #### Technical Leadership & Standards
 - Set and enforce coding standards for 12-person development team through manual code reviews and documented guidelines.
-- **Documentation:** Wrote PR checklists, API design guides, and 5-10 RFCs in the last year.
-- **Code Reviews:** Review 2-3 PRs per month (lower volume due to team working in different codebases).
-- **Cross-Team Decisions:** Drove technical decisions that multiple teams follow, including error handling and sanitization standards for personal auto sales online project.
+- **Documentation:** Wrote PR checklists, API design guides, and multiple RFCs in the last year.
+- **Cross-Team Decisions:** Drive architectural decisions that multiple teams follow, including error handling and sanitization standards for Personal Auto Sales Online (PASO) project.
+- **Organizational Context:** Strong team silos limit cross-team design review opportunities. Influence primarily within immediate team and through RFC authorship.
+- **Mentoring:** Helped new developers navigate legacy codebases, trained 5-6 developers on TDD methodologies.
+- **Note:** Technical lead role focused on architectural decisions, not people management.
+- Technologies: Git, GitHub, Confluence
+
+- **Feature Flags Initiative:** Driving adoption of trunk-based development with feature flags across 12-person team. Authored comprehensive RFC proposing shift from current branching strategy to trunk-based development using `develop` as single source of truth.
+  - **Problems Solved:** Work stagnation ("hanging cards"), environment scarcity bottlenecks, protracted deployment cycles, high-cost reversions
+  - **Strategy:** Code merged to `develop` immediately after review, features encapsulated in disabled flags, deployed dormant to production, activated via configuration change
+  - **Benefits:** Decoupled deployment from release, granular release control (canary/phased rollouts), instant rollback via flag toggle, eliminates code reversions
+  - **Compliance:** Achieves full Guidewire GW-MTH-1084 compliance (current approach deviates by branching from master instead of develop)
+  - **Implementation:** 3-phase rollout (familiarization → early integration of low-risk features → full adoption)
+  - **Current Status:** Custom implementation within Guidewire, currently in pilot/familiarization phase
+  - **Long-term Goals:** Improve test quality through trunk-based development, potential future A/B testing capability
 - **Mentoring:** Helped new developers navigate legacy codebases, trained 5-6 developers on TDD methodologies.
 - Technologies: Git, GitHub, Confluence
 
@@ -141,6 +173,8 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 - Worked on design and implementation of shipping platform for integrating Vinted's internal shipping operations.
 - Wrote automated tests for carrier integrations.
 - **Note:** Role ended before features reached production (3-month stay). Limited production impact.
+
+**Resume Note:** Not included on resume due to short tenure (3 months) and no production deliverables. Creates 5-month gap (Aug 2022 - Jan 2023) between Arterys and AMA Architect, which is acceptable. Reason for leaving: relocation preference (homesickness in Berlin).
 
 ---
 
