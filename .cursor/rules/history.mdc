@@ -75,7 +75,7 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 **Accomplishments:**
 
 #### MyPace Pay-As-You-Go Insurance Product (Flagship Project)
-- Architected Canada's first pay-as-you-go auto insurance platform across 2 major AWS accounts with external partner integration (IMS).
+- Architected technical infrastructure for Canada's first pay-as-you-go auto insurance product across multiple AWS accounts with external partner integration (IMS).
 - **Won 2024 Guidewire Innovation Award** (1 of 3 worldwide winners). Press: https://ir.guidewire.com/news-releases/news-release-details/guidewire-congratulates-2024-innovation-award-winners-alberta
 - **Business Impact:** Product generated $4.3M in annual revenue, processed 76,637 invoices across 5,566 policies (avg $766/policy).
 - **Technical Details:** 10 Lambda functions, multi-account AWS architecture, 99.9% uptime since mid-2024 launch, 1 minor outage early on, 2.8 million insured trips processed to date.
