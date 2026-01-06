@@ -66,7 +66,6 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 **Location:** Edmonton, Alberta, Canada  
 **Technologies:** AWS (EC2, S3, Lambda, EKS, Route53, SQS, IAM, Aurora/RDS, ECR), Terraform, Java, Python, Jenkins, Docker, Git, GitHub, OpenAPI, Gosu, TypeScript, Playwright, Kubernetes, Helm, Datadog, Linkerd
 **Team:** 12 developers (technical lead for architectural decisions, not people manager)
-
 **Summary:** Software Architect responsible for system-level architecture, API design, and technical leadership across AMA's insurance platform. Own API contracts, approve new endpoint additions, and provide architectural guidance for engineering team.
 
 **Note on Role:** Technical lead providing architectural guidance and decisions, not a people manager. Influence through technical expertise and RFC authorship rather than direct reports.
@@ -91,7 +90,8 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 
 #### DevOps Platform (Built Solo)
 - Built self-service infrastructure platform that reduced environment provisioning from 2-3 weeks to 2 hours (60x improvement).
-- **Organizational Impact:** Unblocked 5-10 major initiatives in 2025, adopted by 12 engineers across 2 teams.
+- **Organizational Impact:** Unblocked multiple major initiatives in 2025, adopted by 15 personel across 3 teams.
+- **Usage Metrics:** Platform created 120+ environments in 2025 (10/month average).
 - **Concrete Example:** Enabled production bug diagnosis in hours vs weeks. Critical cancellation bug that couldn't be duplicated was resolved in days instead of weeks by using snapshotted production data.
 - **Features:** Environment create/destroy, database snapshots, pull-from-prod functionality, snapshot listing, ADO metrics integration.
 - **Timeline:** Built in 2024, actively maintained through December 2025.
@@ -137,7 +137,9 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 - Set and enforce coding standards for 12-person development team through manual code reviews and documented guidelines.
 - **Documentation:** Wrote PR checklists, API design guides, and multiple RFCs in the last year.
 - **Cross-Team Decisions:** Drive architectural decisions that multiple teams follow, including error handling and sanitization standards for Personal Auto Sales Online (PASO) project.
-- **Organizational Context:** Strong team silos limit cross-team design review opportunities. Influence primarily within immediate team and through RFC authorship.
+- **Architecture Steering Committee:** Member of quarterly steering committee that reviews and approves architectural proposals across the organization. Advisory and decision-making authority on architectural direction.
+- **Architecture Working Groups:** Participate in working groups formed to execute on steering committee goals and drive specific architectural initiatives.
+- **Organizational Context:** Strong team silos limit cross-team design review opportunities. Influence primarily within immediate team, through RFC authorship, and via steering committee participation.
 - **Mentoring:** Helped new developers navigate legacy codebases, trained 5-6 developers on TDD methodologies.
 - **Note:** Technical lead role focused on architectural decisions, not people management.
 - Technologies: Git, GitHub, Confluence
