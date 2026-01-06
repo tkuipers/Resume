@@ -32,6 +32,35 @@ alwaysApply: true
 - Never embellish beyond what I've actually done
 - Reframe or highlight existing experience, but don't invent it
 
+## CRITICAL: No Fabricated Metrics or Stats
+
+**If a specific number, metric, or stat is not documented in the career history, DO NOT MAKE IT UP.**
+
+This includes:
+- Event counts (2.8 million is documented, "billions" is not)
+- Dollar amounts (use exact figures: $4.3M, not "multi-million")
+- Percentages (30% defect reduction is documented)
+- Time improvements (60x is documented as "2-3 weeks to 2 hours")
+- User/team counts (15 engineers, 5 teams, etc.)
+- Uptime numbers (99.9% is documented)
+
+**When writing any quantitative claim:**
+1. Check career history document first
+2. Use EXACT numbers from the document
+3. If the number isn't there, either ask the user or omit the claim entirely
+4. NEVER round up or exaggerate (2.8 million ≠ "billions")
+
+**Red flags that indicate you're fabricating:**
+- Using vague qualifiers without basis: "billions", "thousands", "massive scale"
+- Combining separate metrics into inflated claims
+- Extrapolating from one system to make broader claims
+- Adding impressive-sounding numbers that "feel right" for the role
+
+**When in doubt:**
+- Leave out the specific number
+- Use vague but truthful language: "high volume", "significant scale"
+- Or better yet: ASK THE USER if they have the metric
+
 ## Timeline Accuracy - Critical
 
 **Do NOT claim years of experience with specific technologies or focus areas unless the timeline is accurate.**
@@ -69,3 +98,28 @@ Ask me first. I may actually have that experience—just confirm before assertin
 - "experience with", "proficient in", "worked with"
 - Rephrasing existing bullet points for clarity or impact
 - Standard action verbs (developed, implemented, built, maintained)
+
+## Verification Checklist Before Finalizing Resume/Cover Letter
+
+Before completing any resume or cover letter, verify:
+
+**Metrics & Numbers:**
+- [ ] Every quantitative claim has a source in career history
+- [ ] No inflated or rounded-up numbers ("billions" when reality is "millions")
+- [ ] Dollar amounts are exact ($4.3M, not "multi-million")
+- [ ] Percentages match documented values (30%, 60x, 99.9%)
+
+**Timeline Claims:**
+- [ ] Total experience stated correctly (10 years)
+- [ ] Specialized focus areas correctly scoped ("last 3 years" for platform engineering)
+- [ ] No conflation of total experience with specialized focus
+
+**Technology Claims:**
+- [ ] Only claim technologies actually used in documented roles
+- [ ] Don't overstate depth ("integrated ML models" vs "built services that ran ML algorithms")
+- [ ] Be honest about learning/exposure vs production experience
+
+**Accomplishments:**
+- [ ] Every achievement is from career history document
+- [ ] No invented projects or responsibilities
+- [ ] Impact claims match documented outcomes
