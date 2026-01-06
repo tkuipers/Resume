@@ -32,6 +32,24 @@ alwaysApply: true
 - Never embellish beyond what I've actually done
 - Reframe or highlight existing experience, but don't invent it
 
+## Timeline Accuracy - Critical
+
+**Do NOT claim years of experience with specific technologies or focus areas unless the timeline is accurate.**
+
+When describing experience duration:
+- State total years in software development: 10 years (2014-2026)
+- Then specify focus area duration: "with the last 3 years focused on X"
+- Never conflate total experience with specialized focus area experience
+
+**Examples of WRONG claims:**
+- "I've spent the last decade building developer tools" (developer tools focus is only 3 years)
+- "10 years of API design experience" (API architecture focus is only 3 years)
+
+**Examples of RIGHT claims:**
+- "I've spent 10 years in software development, with the last 3 focused on developer tools"
+- "I've built backend systems for 10 years, with recent focus on API architecture"
+- "Earlier in my career, I built a test framework..." (for work done 2018-2021)
+
 ## Strong Claims Require Confirmation
 
 Before using terms like:
