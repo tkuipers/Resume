@@ -10,11 +10,9 @@ This document is the authoritative source for my career history and qualificatio
 
 ## My Goals
 
-- Grow into a Staff Engineer role.
-- Grow into a leadership role.
+- Progress into Staff Engineer role by owning system-level design and leading cross-team technical initiatives.
+- Grow into engineering leadership (Staff+, Principal, CTO, or Founding Engineer) with responsibility for technical strategy and execution.
 - Learn from the people I work with.
-- Progress from Senior Engineer into a Staff Engineer role by owning system-level design and leading cross-team technical initiatives.
-- Grow into engineering leadership roles (Staff+, Principal, CTO, or Founding Engineer) with responsibility for technical strategy and execution.
 - Deliver scalable, reliable systems that create clear business impact (cost reduction, revenue enablement, or time-to-market improvements).
 - Mentor and develop other engineers, raising team technical standards and effectiveness.
 - Continue expanding depth in distributed systems, cloud architecture, and DevOps practices through hands-on work and learning from peers.
@@ -66,11 +64,15 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 **Location:** Edmonton, Alberta, Canada  
 **Technologies:** AWS (EC2, S3, Lambda, EKS, Route53, SQS, IAM, Aurora/RDS, ECR), Terraform, Java, Python, Jenkins, Docker, Git, GitHub, OpenAPI, Gosu, TypeScript, Playwright, Kubernetes, Helm, Datadog, Linkerd
 
-**Team:** 12 developers (technical lead for architectural decisions, not people manager)
+**Team:** 12 developers (technical lead for architectural decisions, not people manager). Work with contractors we've hired out for projects lacking capacity.
 
-**Summary:** Software Architect responsible for system-level architecture, API design, and technical leadership across AMA's insurance platform. Own API contracts, approve new endpoint additions, and provide architectural guidance for engineering team.
+**Summary:** Software Architect owning technical and some platform architecture for AMA's Guidewire PolicyCenter-based insurance platform managing ~180,000 policies, >$300M ARR. Own API contracts, lead internal development projects, and provide architectural guidance for engineering team. Responsible for both platform customizations within PolicyCenter and external integrations with partners and internal systems.
 
-**Note on Role:** Technical lead providing architectural guidance and decisions, not a people manager. Influence through technical expertise and RFC authorship rather than direct reports.
+**Note on Role:** Technical lead providing architectural guidance and decisions, less people management (though experience of this in prior role). Influence through technical expertise and RFC authorship rather than direct reports.
+
+**Platform Context (internal, not for resume):** Guidewire Cloud is SaaS/PaaS (infrastructure managed by Guidewire). My ownership covers: technical direction for PolicyCenter development, external integrations, API contracts, custom code, and architectural decisions. Have also worked with Billing module. Insurance professionals understand the customer/vendor division implicitly. Do NOT include explicit SaaS/PaaS disclaimers in resume output, this is here so we don't overstate experience.
+
+**Why $300M is documented:** This metric is for credibility/risk-mitigation signaling, not insurance positioning. The message is "someone already trusted me with $300M ARR systems" to reduce perceived hiring risk. Use as supporting context, not the headline. Lead with transferable technical work (AWS, K8s, APIs, platform tooling), use $300M to show stakes.
 
 **Accomplishments:**
 
@@ -92,7 +94,7 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 
 #### DevOps Platform (Built Solo)
 - Built self-service infrastructure platform that reduced environment provisioning from 2-3 weeks to 2 hours (60x improvement).
-- **Organizational Impact:** Unblocked multiple major initiatives in 2025, adopted by 15 personel across 3 teams.
+- **Organizational Impact:** Unblocked multiple major initiatives in 2025, adopted by 15 personnel across 3 teams.
 - **Usage Metrics:** Platform created 120+ environments in 2025 (10/month average).
 - **Concrete Example:** Enabled production bug diagnosis in hours vs weeks. Critical cancellation bug that couldn't be duplicated was resolved in days instead of weeks by using snapshotted production data.
 - **Features:** Environment create/destroy, database snapshots, pull-from-prod functionality, snapshot listing, ADO metrics integration.
@@ -154,8 +156,6 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
   - **Implementation:** 3-phase rollout (familiarization → early integration of low-risk features → full adoption)
   - **Current Status:** Custom implementation within Guidewire, currently in pilot/familiarization phase
   - **Long-term Goals:** Improve test quality through trunk-based development, potential future A/B testing capability
-- **Mentoring:** Helped new developers navigate legacy codebases, trained 5-6 developers on TDD methodologies.
-- Technologies: Git, GitHub, Confluence
 
 #### Kubernetes & Infrastructure
 - Deployed and maintain production EKS cluster running: cert-manager, Datadog, Karpenter, Linkerd (service mesh), and document generation services.
@@ -353,7 +353,7 @@ EC2, S3, Lambda, EKS, Route53, SQS, IAM, Aurora/RDS, ECR
 - SOC 2 compliant environments (organizational level)
 - IAM policy authoring
 - Subnet configuration within VPCs (VPCs managed by cloud ops)
-- Payment processing integrations (Stripe, PCI Considerationh)
+- Payment processing integrations (Stripe, PCI considerations)
 
 **Development Practices:**
 - Strong TDD practitioner (10+ years)
