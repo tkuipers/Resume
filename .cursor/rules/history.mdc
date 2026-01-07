@@ -23,6 +23,8 @@ This document is the authoritative source for my career history and qualificatio
 
 - **NO EM DASHES. EVER.** Do not use "—" or "---" in any resume or cover letter content. They are an obvious tell that something is AI-written. Use colons, periods, commas, or rewrite the sentence instead.
 
+- **Don't say "My stack is X"**. Use "I work well in X" instead. "My stack" sounds like AI-speak.
+
 - **ELK (Elasticsearch, Logstash, Kibana)**: Used it but never set it up from scratch. Don't claim "strong" experience - say "experience with" or just list in technologies without emphasis.
 
 ## Writing Style & Tone
@@ -94,7 +96,7 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 
 #### DevOps Platform (Built Solo)
 - Built self-service infrastructure platform that reduced environment provisioning from 2-3 weeks to 2 hours (60x improvement).
-- **Organizational Impact:** Unblocked multiple major initiatives in 2025, adopted by 15 personnel across 3 teams.
+- **Organizational Impact:** Unblocked multiple major initiatives in 2025, adopted by 15 personnel across 3 teams. **Note: This is NOT org-wide adoption. Do not claim "org-wide" - it's 3 teams.**
 - **Usage Metrics:** Platform created 120+ environments in 2025 (10/month average).
 - **Concrete Example:** Enabled production bug diagnosis in hours vs weeks. Critical cancellation bug that couldn't be duplicated was resolved in days instead of weeks by using snapshotted production data.
 - **Features:** Environment create/destroy, database snapshots, pull-from-prod functionality, snapshot listing, ADO metrics integration.
