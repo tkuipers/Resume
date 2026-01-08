@@ -1,6 +1,7 @@
 ---
 alwaysApply: true
 ---
+
 ## Writing Style
 
 **Goal: Pleasant to read, like a person wrote it.**
@@ -19,6 +20,8 @@ alwaysApply: true
 
 - **Cover letters: warm but brief.** Show personality. Vary sentence starts. Use complete sentences throughout. End with something like "I'd be happy to talk more."
 
+- **Frame as "what I can do for them", not "what I've done."** Resume summary sections and cover letters should focus on the value I bring to the company, not just my history. "I can help drive technical direction" is better than "I have 3 years of experience setting technical direction." The job history/skills/education sections all have the credentials; the cover letter and summary sells the outcome.
+
 - **Avoid buzzwords:** leverage, optimize, robust, dynamic, comprehensive, seamlessly, pivotal, crucial
 
 - **Avoid hedging:** "contributed to," "helped with," "assisted in" (claim ownership when true)
@@ -30,6 +33,53 @@ alwaysApply: true
 - Never fabricate experience, skills, or accomplishments
 - Never embellish beyond what I've actually done
 - Reframe or highlight existing experience, but don't invent it
+
+## CRITICAL: No Fabricated Metrics or Stats
+
+**If a specific number, metric, or stat is not documented in the career history, DO NOT MAKE IT UP.**
+
+This includes:
+- Event counts (2.8 million is documented, "billions" is not)
+- Dollar amounts (use exact figures: $4.3M, not "multi-million")
+- Percentages (30% defect reduction is documented)
+- Time improvements (60x is documented as "2-3 weeks to 2 hours")
+- User/team counts (15 engineers, 5 teams, etc.)
+- Uptime numbers (99.9% is documented)
+
+**When writing any quantitative claim:**
+1. Check career history document first
+2. Use EXACT numbers from the document
+3. If the number isn't there, either ask the user or omit the claim entirely
+4. NEVER round up or exaggerate (2.8 million ≠ "billions")
+
+**Red flags that indicate you're fabricating:**
+- Using vague qualifiers without basis: "billions", "thousands", "massive scale"
+- Combining separate metrics into inflated claims
+- Extrapolating from one system to make broader claims
+- Adding impressive-sounding numbers that "feel right" for the role
+
+**When in doubt:**
+- Leave out the specific number
+- Use vague but truthful language: "high volume", "significant scale"
+- Or better yet: ASK THE USER if they have the metric
+
+## Timeline Accuracy - Critical
+
+**Do NOT claim years of experience with specific technologies or focus areas unless the timeline is accurate.**
+
+When describing experience duration:
+- State total years in software development: 10 years (2014-2026)
+- Then specify focus area duration: "with the last 3 years focused on X"
+- Never conflate total experience with specialized focus area experience
+
+**Examples of WRONG claims:**
+- "I've spent the last decade building developer tools" (developer tools focus is only 3 years)
+- "10 years of API design experience" (API architecture focus is only 3 years)
+
+**Examples of RIGHT claims:**
+- "I've spent 10 years in software development, with the last 3 focused on developer tools"
+- "I've built backend systems for 10 years, with recent focus on API architecture"
+- "Earlier in my career, I built a test framework..." (for work done 2018-2021)
 
 ## Strong Claims Require Confirmation
 
@@ -50,3 +100,28 @@ Ask me first. I may actually have that experience—just confirm before assertin
 - "experience with", "proficient in", "worked with"
 - Rephrasing existing bullet points for clarity or impact
 - Standard action verbs (developed, implemented, built, maintained)
+
+## Verification Checklist Before Finalizing Resume/Cover Letter
+
+Before completing any resume or cover letter, verify:
+
+**Metrics & Numbers:**
+- [ ] Every quantitative claim has a source in career history
+- [ ] No inflated or rounded-up numbers ("billions" when reality is "millions")
+- [ ] Dollar amounts are exact ($4.3M, not "multi-million")
+- [ ] Percentages match documented values (30%, 60x, 99.9%)
+
+**Timeline Claims:**
+- [ ] Total experience stated correctly (10 years)
+- [ ] Specialized focus areas correctly scoped ("last 3 years" for platform engineering)
+- [ ] No conflation of total experience with specialized focus
+
+**Technology Claims:**
+- [ ] Only claim technologies actually used in documented roles
+- [ ] Don't overstate depth ("integrated ML models" vs "built services that ran ML algorithms")
+- [ ] Be honest about learning/exposure vs production experience
+
+**Accomplishments:**
+- [ ] Every achievement is from career history document
+- [ ] No invented projects or responsibilities
+- [ ] Impact claims match documented outcomes

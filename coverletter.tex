@@ -57,17 +57,12 @@
 
 % \quote{``Be the change that you want to see in the world."}
 \recipient
-  {Wealthsimple}
-  {80 Spadina Avenue, 4th Floor\\Toronto, ON M5V 2J4}
-% The date on the letter, default is the date of compilation
+  {Auvik}
+  {Suite 200, 451 Phillip Street\\Waterloo, ON N2L 3X2}
 \letterdate{\today}
-% The title of the letter
-\lettertitle{Developer - Build Platform Team}
-% How the letter is opened
+\lettertitle{Staff Software Engineer}
 \letteropening{Dear Hiring Manager,}
-% How the letter is closed
 \letterclosing{Sincerely,}
-% Any enclosures with the letter
 \letterenclosure[Attached]{Resume}
 
 %-------------------------------------------------------------------------------
@@ -92,14 +87,17 @@
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
 \begin{cvletter}
-I'm applying for the Developer role on the Build Platform team. I've spent the last few years building internal tooling, and I enjoy it immensely.  I like the idea of measuring the success of my initiatives against the improvements that it provides internal teams.
+  I'm applying for the Staff Software Developer role at Auvik. The focus on staying hands-on while having technical influence across teams is very interesting to me. I have a passion for writing code, debugging hard problems, and building tools that make the team more effective.
 
-In my current role, I built CLI tooling that lets developers spin up full environments and database snapshots with a single command. It cut setup time by 90\% and reduced production debugging from weeks to hours. I also built GitOps pipelines with Argo that gave teams consistent, repeatable deployments. The pattern was always the same: find the friction, build tooling to remove it, then help teams adopt it.
+  Developer tooling is an area where I have had a lot of impact in my current role. I built a self-service platform that cut our environment provisioning process from 2-3 weeks to 2 hours. It's now used by 15 engineers across 3 teams, handling 15-20 environments per month: creating, destroying, deploying, and recovering from errors. Earlier in my career, I built a test framework for our system that reduced defects by 30\% and is still in use team-wide 4+ years later.
 
-What draws me to this role is that you're solving problems I care about: containerized dev environments, better testing infrastructure, eliminating "works on my machine" issues. I've been on both sides, building the tooling and being the frustrated developer waiting for environments.
+  I have run production systems on Kubernetes (EKS) and AWS with 99.9\% uptime. I set up Datadog observability for our microservices: failure rates, latency, throughput. At my previous company, I used Elasticsearch and Kibana for production monitoring and caught issues before they hit customers, though I wasn't involved in setting it up. I enjoy digging across distributed systems to find root causes.
 
-I'd be happy to talk more.
+  I don't have production experience with Go, Scala, or React. My stack is TypeScript, Python, and Java as of today. I learn quickly and have picked up new languages and frameworks throughout my career, but I want to be upfront about where my depth is.
 
+  Outside work, and on top of completing my Master's degree, I run a homelab on Kubernetes (TalosLinux) and have side projects including a mutation testing framework built on tree-sitter. I like staying sharp and building things that interest me.
+
+  I'd be happy to talk more about how my developer tooling and infrastructure experience could contribute to Auvik.
 \end{cvletter}
 
 \makeletterclosing
