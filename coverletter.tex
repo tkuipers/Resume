@@ -57,10 +57,13 @@
 
 % \quote{``Be the change that you want to see in the world."}
 \recipient
-  {Auvik}
-  {Suite 200, 451 Phillip Street\\Waterloo, ON N2L 3X2}
+  {Power Personnel}
+  {Recruiting partner for a Toronto-based health tech company}
+% The date on the letter, default is the date of compilation
 \letterdate{\today}
-\lettertitle{Staff Software Engineer}
+% The title of the letter
+\lettertitle{Healthcare Platform Engineer (.NET / Azure)}
+% How the letter is opened
 \letteropening{Dear Hiring Manager,}
 \letterclosing{Sincerely,}
 \letterenclosure[Attached]{Resume}
@@ -87,17 +90,17 @@
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
 \begin{cvletter}
-  I'm applying for the Staff Software Developer role at Auvik. The focus on staying hands-on while having technical influence across teams is very interesting to me. I have a passion for writing code, debugging hard problems, and building tools that make the team more effective.
+I'm applying for the Healthcare Platform Engineer role. Building backend systems that clinicians actually rely on is somewhere I'd very much like to spend the next chapter of my career, and the role description lines up closely with what I've been doing for the last few years: owning distributed backend services end-to-end, designing for scale and reliability, and influencing architecture across teams.
 
-  Developer tooling is an area where I have had a lot of impact in my current role. I built a self-service platform that cut our environment provisioning process from 2-3 weeks to 2 hours. It's now used by 15 engineers across 3 teams, handling 15-20 environments per month: creating, destroying, deploying, and recovering from errors. Earlier in my career, I built a test framework for our system that reduced defects by 30\% and is still in use team-wide 4+ years later.
+I've spent 10 years in software, with the last 3 focused on architecture and technical leadership at AMA. I design event-driven backends on cloud infrastructure: APIs serving 5 teams with 99.9\% uptime and \$4.3M in annual transactions, serverless workloads handling millions of asynchronous events, and a self-service developer platform that took environment provisioning from 2-3 weeks down to 2 hours. Right now I'm leading the modernization of a legacy document generation system into containerized C\# microservices on Kubernetes, with Datadog for observability across the lot.
 
-  I have run production systems on Kubernetes (EKS) and AWS with 99.9\% uptime. I set up Datadog observability for our microservices: failure rates, latency, throughput. At my previous company, I used Elasticsearch and Kibana for production monitoring and caught issues before they hit customers, though I wasn't involved in setting it up. I enjoy digging across distributed systems to find root causes.
+The healthcare side matters to me too. I spent a year at Arterys building and operating backend services for a medical imaging AI SaaS used in clinical settings. It's the part of my career I'd most like to get back to: technology where the impact lands on real patient care.
 
-  I don't have production experience with Go, Scala, or React. My stack is TypeScript, Python, and Java as of today. I learn quickly and have picked up new languages and frameworks throughout my career, but I want to be upfront about where my depth is.
+A few honest notes on fit. My day-to-day languages are Python, Java, and TypeScript; I've been hands-on with C\# on the document generation rewrite and earlier in my career, but I wouldn't claim 5 years of daily .NET. My cloud depth is in AWS rather than Azure (Lambda, EKS, SQS, RDS, IAM, Terraform), but the building blocks line up cleanly: Functions, AKS, Service Bus, and CI/CD pipelines all map to work I do regularly. I'd have a real but short ramp on Azure specifics, and I learn quickly.
 
-  Outside work, and on top of completing my Master's degree, I run a homelab on Kubernetes (TalosLinux) and have side projects including a mutation testing framework built on tree-sitter. I like staying sharp and building things that interest me.
+I lead through technical vision rather than authority: RFCs, code reviews, mentorship, and architectural guidance for a 12-person team, and a seat on AMA's Architecture Steering Committee. I own systems end-to-end, from design through operations.
 
-  I'd be happy to talk more about how my developer tooling and infrastructure experience could contribute to Auvik.
+I'd be happy to talk more about the role and how my background fits.
 \end{cvletter}
 
 \makeletterclosing
