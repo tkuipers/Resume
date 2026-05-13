@@ -42,6 +42,8 @@ The other `.cursor/rules/*.mdc` files are also `alwaysApply: true` and must be r
 - **Headline databases/platforms only when used regularly and deeply.** Currently only PostgreSQL and Kubernetes qualify. Redis and ELK belong in `technologies.tex` without emphasis, never in the summary.
 - **Don't conflate total experience with focus-area experience.** 10 years total in software (2014-2026); platform/API focus is only the last ~3 years. Phrase accordingly.
 - **Never fabricate metrics.** Use exact numbers from history.mdc ($4.3M, 60x, 99.9%, 2.8M trips, 1400+ policies). If a number isn't there, omit it or ask.
+- **Never fabricate experience.** Use exact experience from history.mdc. If a role isn't there, omit it or ask.
+- **Avoid mentioning side projects.** I don't believe that side projects are a good indication of technical depth.
 
 ## Tailoring workflow
 
