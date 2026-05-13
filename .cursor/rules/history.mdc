@@ -25,7 +25,14 @@ This document is the authoritative source for my career history and qualificatio
 
 - **NO EM DASHES. EVER.** Do not use "—" or "---" in any resume or cover letter content. They are an obvious tell that something is AI-written. Use colons, periods, commas, or rewrite the sentence instead.
 
-- **ELK (Elasticsearch, Logstash, Kibana)**: Used it but never set it up from scratch. Don't claim "strong" experience - say "experience with" or just list in technologies without emphasis.
+- **NEVER use "multi-tenant" or "multi-tenancy."** Tyler does NOT build multi-tenant systems. The systems he architects at AMA are internal/single-tenant. Do not write "multi-tenant architectures," "multi-tenant systems," "multi-tenant APIs," or any variation, anywhere -- not in summary, experience bullets, skills, technologies, archetypes, cover letters, or AI prompts. This is a recurring fabrication that he has corrected multiple times.
+
+- **Database/tooling depth - be precise about what's headline-worthy:**
+  - **PostgreSQL**: Strong, regular use. Safe to headline.
+  - **Kubernetes / EKS**: Strong, regular use. Safe to headline.
+  - **Redis**: Used it (caching at Arterys), but NOT a headline skill. Do not list alongside Postgres in summary or About Me. Acceptable in technology lists if relevant to the role; never as a primary database.
+  - **ELK (Elasticsearch, Logstash, Kibana)**: Used it for monitoring, but never set it up from scratch. NOT a headline skill. Do not claim "strong" experience. Say "experience with" or list in technologies without emphasis. Never lead a summary with Elasticsearch.
+  - **Rule of thumb for the About Me / summary paragraph**: only headline databases and platforms used regularly and deeply. Currently that is Postgres and Kubernetes. Everything else goes in the Technologies section without emphasis, or is omitted.
 
 ## Writing Style & Tone
 
@@ -212,7 +219,7 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 - Led 5-6 person development team working in Gosu (JVM language) on Guidewire insurance platform.
 - Performed Scrum Master role, delivered projects on time and budget with no critical defects post-launch.
 - Designed and built automated test framework that reduced defects by 30% on subsequent projects (measured by bug count following releases).
-- **Test Framework Adoption:** Framework now used org-wide by all Guidewire projects, still in use 4+ years later.
+- **Test Framework Adoption:** Framework adopted across the insurance engineering team (~15 developers / all Guidewire projects), still in use 4+ years later. NOT AMA-wide (AMA has ~120 developers across many domains); scope is the insurance team only. Do not write "org-wide" or "across all development teams."
 - Led Git migration for 12-15 developers transitioning from SVN.
 - Created Docker image for local Guidewire development environments.
 - Trained 5-6 developers on TDD methodologies through hosted training sessions.
@@ -303,6 +310,7 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 **Accomplishments:**
 - Designed and built website for researchers to input information; viewers could see and explore the data.
 - Researched method utilized and authored undergraduate thesis documenting contribution to Edmonton River Atlas Website.
+- Presented research through poster presentations.
 - Advanced skills in PHP, HTML, JavaScript and jQuery, PostgreSQL, and PostGIS.
 
 ---
