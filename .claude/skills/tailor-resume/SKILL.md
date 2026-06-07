@@ -227,6 +227,19 @@ Requires `xelatex` (custom fonts under `fonts/`). If a build fails, read the
 LaTeX error, fix the `.tex`, and rebuild. The committed PDFs in `out/` are the
 artifacts that get sent, so both must build cleanly.
 
+**ALWAYS build after changing a `.tex` file. No exceptions.** The PDF, not the
+`.tex`, is what Tyler sends, and he may apply with whatever PDF currently exists
+at any moment. If you edit a `.tex` and do not rebuild, the PDF is stale and he
+can submit your old work without your changes (this has happened: an application
+went out with an un-rebuilt resume). So: any time you touch `summary.tex`,
+`experience.tex`, `skills.tex`, `technologies.tex`, `resume.tex`, or
+`coverletter.tex`, rebuild the affected PDF(s) in the same turn, before you
+report back or hand control to Tyler. This is independent of committing:
+committing is situational, building is not. Never leave edited `.tex` files
+unbuilt, even mid-iteration or when you're "about to ask one more question."
+Building also catches LaTeX errors early (unescaped `&`, `%`, `$`, `#`, `_`,
+etc.), which is the other reason to never skip it.
+
 ## Step 5 — Commit and tag the application
 
 Show the user a summary of what changed and the proposed commit + tag, and get
