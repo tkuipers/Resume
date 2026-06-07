@@ -57,12 +57,12 @@
 
 % \quote{``Be the change that you want to see in the world."}
 \recipient
-  {Narvar}
+  {Granum}
   {Remote}
 % The date on the letter, default is the date of compilation
 \letterdate{\today}
 % The title of the letter
-\lettertitle{Senior Software Engineer, Distributed Systems}
+\lettertitle{Senior Software Engineer (P4)}
 % How the letter is opened
 \letteropening{Dear Hiring Manager,}
 \letterclosing{Thank you for your time and consideration,}
@@ -90,13 +90,15 @@
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
 \begin{cvletter}
-  I'm applying for the Senior Software Engineer role on distributed systems. The post-purchase problem is a fun one, and the scale you're working at (125 million consumers, billions of interactions) is exactly the kind of environment where reliability and careful system design actually matter. Building backends that have to stay up under real load is the work I enjoy most.
+  I'm applying for the Senior Software Engineer role on the LMN pod. I like that you measure success by customer outcomes rather than pull requests, and building the software a landscaper runs their whole business on is the kind of concrete, this-matters work I enjoy. I've worked in a pod structure before too, engineers alongside a PM, design, and QA, so the way you've set this up feels familiar.
 
-  Most of my recent work has been distributed systems and reliability. I architected a customer-facing product that runs across multiple AWS accounts on a fleet of Lambda functions; it has held 99.9\% uptime since launch and processed 2.8 million insured trips so far. I also led a small team rewriting a brittle legacy system into containerized microservices on Kubernetes with a Linkerd service mesh, with Datadog metrics wired in so we could actually see how it was behaving.
+  The most relevant thing I've done: I led a 2-3 engineer rewrite of a brittle legacy C\# system into containerized .NET microservices. The old one had frequent outages and was painful to work in; the new one is measurable and maintainable, with Datadog metrics for failure rate, throughput, and timing so we could actually see how it behaved. Owning a service end to end, from the design doc through the part where it has to stay up, is how I like to work.
 
-  I own four REST APIs end to end: the contracts, the versioning, and the design standards other teams build against, so owning a service's reliability and scalability is familiar territory. I work mostly in Python these days. I care about the boring parts that keep a system maintainable, like tests you can trust, clear error handling, and metrics that tell you the truth.
+  I lean on design docs to get a team aligned on the hard calls. One I'm proud of is an RFC to move us to trunk-based development with feature flags, so we could decouple deploys from releases and roll changes out gradually. I treat reliability as part of the feature rather than a follow-up: instrument what I ship, set clear bars, and follow through on what production teaches us.
 
-  I've worked at a startup before, at Arterys, a medical-imaging AI company, so the pace and the ambiguity are comfortable for me. I also like helping a team get better: I write a lot of RFCs and design guides, do plenty of code review, and mentor newer engineers.
+  On the AI side, I use coding assistants and agentic workflows every day, and I've got real opinions on where they speed things up and where they quietly add work. I'd be glad to help a team get good at using them well, with guardrails rather than blind trust.
+
+  Two honest notes. My frontend depth is in TypeScript rather than Angular specifically, and my cloud work has been on AWS rather than Azure. Neither has slowed me down much before. I ramp quickly, and the Azure side isn't far from what I already use, since I've worked with Azure DevOps and Artifacts. I'd rather be straight about that than oversell it.
 
   I'd be happy to talk more.
 \end{cvletter}

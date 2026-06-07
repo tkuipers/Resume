@@ -157,6 +157,7 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 - **Organizational Context:** Strong team silos limit cross-team design review opportunities. Influence primarily within immediate team, through RFC authorship, and via steering committee participation.
 - **Mentoring:** Helped new developers navigate legacy codebases, trained 5-6 developers on TDD methodologies.
 - **Note:** Technical lead role focused on architectural decisions, not people management.
+- **Pod participation (with caveat):** Worked as an engineer within cross-functional pods (engineers alongside PM, design, and QA) and understands the pod delivery process firsthand. **NOTE: participation only. Did NOT lead a pod, and did NOT introduce or push the pod model at AMA. Do not claim pod leadership, pod ownership, or that he drove pod adoption. Frame as "worked in / participated in," never "led" or "championed."**
 - Technologies: Git, GitHub, Confluence
 
 - **Feature Flags Initiative:** Driving adoption of trunk-based development with feature flags across 12-person team. Authored comprehensive RFC proposing shift from current branching strategy to trunk-based development using `develop` as single source of truth.
