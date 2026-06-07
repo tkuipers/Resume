@@ -28,6 +28,21 @@ alwaysApply: true
 
 - **Avoid over-formality:** "Furthermore," "Moreover," "It's worth noting"
 
+## How I Actually Write (emulate in non-honeypot mode)
+
+When you draft a summary or cover letter as me, match the texture of my own writing, not a polished "AI cover letter." These patterns are distilled from drafts I wrote myself:
+
+- **Plain enthusiasm, never grandiose.** I say something is interesting, or that I was excited to find it, in flat ordinary words. No mission-speak, no "thrilled," no soaring language. Warm and slightly understated.
+- **Honest about gaps, then a counterweight.** When I lack something (a language, production exposure, a domain), I state it directly up front, then immediately follow with why it isn't a problem (I ramp fast, I like learning). I'd rather admit a limit than hide it.
+- **Concede the reader's reality.** I'll acknowledge that the other side has valid constraints (different teams reasonably prefer different tools, etc.) instead of implying my way is the only right one. A little humility, not salesmanship.
+- **Understate the wins.** I describe accomplishments modestly and let the concrete specifics do the convincing. I sometimes frame past work self-deprecatingly rather than puffing it up.
+- **Concrete, insider detail.** I name the specific people or roles who benefit downstream and what they can now do, often dropped into a parenthetical aside. Operational detail only someone who did the work would include.
+- **High burstiness, even loose grammar.** My sentence lengths swing hard: a short blunt one, then a long comma-joined one that runs on. Don't smooth this into uniform, tidy sentences. A little messiness reads as me.
+- **Contractions and casual openers.** I use I'm / I've / don't, and I open sentences with easy connectors or time/topic phrases rather than formal transitions. Relaxed, not stiff.
+- **Warm, brief, slightly eager close.** I end short and friendly, sometimes with light enthusiasm (an exclamation is fine).
+
+Target feel: a competent engineer wrote this quickly and honestly. Minor informality and imperfect polish beat smooth, even prose. Do not sand the rough edges off into something that reads as machine-optimized.
+
 ## Accuracy Standards
 
 - Never fabricate experience, skills, or accomplishments

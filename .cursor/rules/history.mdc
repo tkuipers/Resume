@@ -73,7 +73,7 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 **Role:** Software Architect  
 **Dates:** January 2023 - Present (3 years 1 month)  
 **Location:** Edmonton, Alberta, Canada  
-**Technologies:** AWS (EC2, S3, Lambda, EKS, Route53, SQS, IAM, Aurora/RDS, ECR), Terraform, Java, Python, Jenkins, Docker, Git, GitHub, OpenAPI, Gosu, TypeScript, Playwright, Kubernetes, Helm, Datadog, Linkerd
+**Technologies:** AWS (EC2, S3, Lambda, EKS, Route53, SQS, IAM, Aurora/RDS, ECR), Terraform, Java, Python, Jenkins, GitHub Actions, Azure Artifacts, Docker, Git, GitHub, OpenAPI, Gosu, TypeScript, Playwright, Kubernetes, Helm, Datadog, Linkerd
 
 **Team:** 12 developers (technical lead for architectural decisions, not people manager). Work with contractors we've hired out for projects lacking capacity.
 
