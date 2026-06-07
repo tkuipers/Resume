@@ -57,12 +57,12 @@
 
 % \quote{``Be the change that you want to see in the world."}
 \recipient
-  {Chainguard}
+  {Megaport}
   {Remote}
 % The date on the letter, default is the date of compilation
 \letterdate{\today}
 % The title of the letter
-\lettertitle{Senior Software Engineer, Libraries Platform}
+\lettertitle{Senior Software Engineer}
 % How the letter is opened
 \letteropening{Dear Hiring Manager,}
 \letterclosing{Thank you for your time and consideration,}
@@ -90,17 +90,15 @@
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
 \begin{cvletter}
-  I'm applying for the Senior Software Engineer role that you have posted.  I strongly agree with the statement you made that a good platform is invisible. I was excited when I came across the opportunity for a job where you can build the tooling that other engineers rely on.  This type of job really lets the challenging and interesting parts of the career shine through.
+  I'm applying for the Senior Software Engineer role. The line about finding joy in making a product that customers love is what got me to read the rest, and the NaaS domain looks genuinely interesting. Building the backend and the APIs that sit underneath a product like that is exactly the kind of work I want to be doing.
 
-  In the past, I've skirted around the edges of these types of problems.  In my current role, I built out a CLI that allows our dev team to deploy test environments in an automated fashion, shortening our environment creation time from a multi-week process to one that takes 2-3 hours.  I also created a helpful website that maps out these environments, allowing our product owner and QA teams to see which pieces of infrastructure are connected to each other (which front-end talks to which back-end, which cards are deployed where, etc).  Increasing the speed and ease of my coworkers' jobs is a really fun endeavor.
+  A quick note on the language, since you ask for Java or Kotlin. Most of my recent work is in Python and TypeScript, but I came up on the JVM. I wrote Java at Lockheed Martin early on, and I've spent several years since in Gosu, which is Guidewire's JVM language and is extremely close to Java: same type system, same OO model, same patterns, so moving back is a small step rather than a leap. OO design and the usual design patterns are how I think about structuring code regardless of what's on top.
 
-  I've also helped push our team towards modern development practices. In our case, that includes EKS, Terraform, Helm, GitHub Actions, Azure Artifacts, and Datadog, though I understand every team has its own preferred technology stack.
+  Most of what I do now is backend and API work. I own four REST APIs that internal teams and external partners build against, so I spend a lot of time on the things that make an API safe to depend on: clear contracts, versioning that doesn't break callers, and design standards I can point people to. I also led a small team rewriting a creaky legacy document system into containerized services on Kubernetes, which is the kind of "modernise the old thing without breaking the people using it" work your posting describes.
 
-  While I don't have any production experience in the Go stack, I have done a side project, hosting game servers on Kubernetes, that heavily uses Go.  As well, I have experience ramping up quickly and love learning new things.
+  On the leadership and quality side, I've been the technical lead on small projects, I write a lot of RFCs and design guides, and I do plenty of code review and pairing. Earlier on I built a test framework that cut defects by 30\% on later projects, and the team is still using it years later. I enjoy the mentoring part too, mostly helping newer developers get comfortable in code they find intimidating.
 
-  Alongside all this, I have both concrete management experience, from being a team lead, and soft leadership experience, more recently in my current role through RFCs, mentorship, and code reviews.
-
-  I would be very interested to meet and talk about the position more!
+  I'll be honest that the networking side, IP routing and MPLS, is new to me. But ramping quickly on an unfamiliar domain is something I've done before and genuinely like doing. I'd be happy to talk more!
 \end{cvletter}
 
 \makeletterclosing

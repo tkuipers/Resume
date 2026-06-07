@@ -2,23 +2,23 @@
 
 \begin{cvsoftskills}
 	\cvskill{
-		Developer Platforms \& Tooling
+		Backend \& API Design
 	}{
-		\paragraphstyle Built a self-service developer platform solo that cut environment provisioning from weeks to hours (60x), with create/destroy, database snapshots, and pull-from-prod. Adopted by 15 people across 3 teams, it spun up 120+ environments and turned production debugging that used to take weeks into something that takes hours. The kind of automation that makes other engineers faster is the work I gravitate toward.
+		\paragraphstyle I own four REST APIs that internal teams and external partners build against, so most of my attention goes to the contract: clean versioning, sane error handling, and design standards that hold up as the surface area grows. I came up on the JVM and still reach for OO design and the standard patterns when I'm structuring a service. Designing backends that other people depend on, and not surprising them, is the part of the job I care most about.
+	} \\
+	\cvskill{
+		Quality \& Release Engineering
+	}{
+		\paragraphstyle Earlier in my career I designed an automated test framework that cut defects by 30\% on later projects; the insurance engineering team (~15 developers) is still using it four years on. I'm a long-time TDD practitioner and I do a lot of code review, since catching a problem there is far cheaper than catching it in production. I've also built and maintained the CI/CD pipelines that get all of it shipped.
+	} \\
+	\cvskill{
+		Technical Leadership \& Mentorship
+	}{
+		\paragraphstyle I've been the technical lead on small projects, most recently a 2-3 engineer rewrite of a legacy system, and earlier a 5-6 person team where I also ran Scrum. I set direction through RFCs, PR checklists, and API design guides, and I sit on AMA's Architecture Steering Committee. The mentoring side matters to me too: helping newer developers find their way through legacy code and getting a team comfortable with TDD.
 	} \\
 	\cvskill{
 		Cloud-Native Infrastructure
 	}{
-		\paragraphstyle Production AWS across multiple accounts (Lambda, EKS, SQS, RDS, IAM, ECR) with Terraform for infrastructure as code. Run a production EKS cluster with cert-manager, Karpenter, and Linkerd, and ship containerized microservices on it with Helm. Comfortable across CI/CD, Docker, and the pipelines that build and deploy all of it.
-	} \\
-	\cvskill{
-		Reliability \& Observability
-	}{
-		\paragraphstyle Instrument services with Datadog metrics for failure rate, throughput, and latency, and use them to define what healthy looks like and alert when it isn't. I like chasing hard production failures to root cause: a cancellation bug nobody could reproduce got fixed in days once I could replay real production data against it.
-	} \\
-	\cvskill{
-		Technical Leadership \& Ownership
-	}{
-		\paragraphstyle Set technical standards for a 12-person team through code reviews, RFC authorship, PR checklists, and API design guides. Member of AMA's Architecture Steering Committee. Drive cross-team architectural decisions and own technical domains from design through production. I write a lot, because clear docs are how direction actually sticks.
+		\paragraphstyle I work across production AWS spanning multiple accounts (Lambda, EKS, SQS, RDS, IAM, ECR), with Terraform handling the infrastructure as code. I deployed a production EKS cluster running cert-manager, Karpenter, and Linkerd, and moved a brittle legacy document system onto it as containerized microservices with Helm. Most of what I build now leans on Postgres and Datadog for the data and the visibility.
 	} \\
 \end{cvsoftskills}
