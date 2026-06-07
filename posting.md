@@ -1,72 +1,57 @@
 About the job
-Title: Software Developer III 
+Narvar is Growing! We are looking for Senior Software Engineers that focus on Distributed Systems. In this role, you will build products that power the post-purchase experience for the biggest brands in the retail industry. As a Distributed Systems Software Engineer, you will help us drive decisions on how best to scale and extend our platform and own reliability and scalability KPIs.
 
-Location: Remote | Canada
+Note that we are hiring for these roles across multiple products and platform teams.
 
+Day-to-day
 
-
-No C2C or third-party submissions
-
-
-
-About Workerbee 
-
-Workerbee connects workers with employers through trusted introductions.
+Work in a group of motivated engineers and help the members of your team grow technically
+Get inspired and influenced by your team and embrace modern engineering practices that will enable you to frequently release high-quality services
+Work with the team to design, estimate, develop and launch new products & features
+Resolve complex technical issues and drive innovations that improve system availability, resilience, and performance
 
 
+What We're Looking For
 
-By joining Workerbee you can be matched for project-based, contract, or permanent opportunities with leading organizations.
-
-
-
-Over time, Workerbee helps you:  
-
-Keep a living record of what you’ve actually accomplished  
-See how your experience carries across roles and paths  
-Explore options without pressure to apply  
-Move through change with clarity instead of urgency
-
-
-We are connected to those who hire talent and are in need of level 3 Software Developers.
-
-
-
-In this work, you will help employers solve complex problems and bring real value through hands-on expertise in enterprise software development, cloud-based applications, and SaaS platform engineering.
+BS/MS in computer science, engineering, or equivalent experience
+You have 7+ years of experience as a software engineer working on distributed systems
+Numerous years of hands-on experience in architecture, design and development of enterprise applications, integrations & data infrastructure
+You have experience designing, developing, debugging, and operating resilient distributed systems
+You have experience with managing large, complex systems in the cloud
+You have proven track record in delivering efficient, scalable, reliable and maintainable customer facing systems on time
+You are not afraid to take initiative and help make an impact on the larger organization
+You have solid organizational and communication skills, the ability to prioritize tasks and keep projects on schedule
+Deep hands-on expertise in one or more of the following server-side languages: Java, Python, Go, Scala, Rust
+Extensive experience designing, building, and integrating with RESTful APIs
+Experience designing and scaling relational and NoSQL database platforms (such as MySQL, Postgres, Cassandra, DynamoDB, MongoDB, Redis, Elasticache)
+Experience with cloud computing platforms like AWS or GCP
+Experience building high volume, high performance, and highly available SaaS or consumer-facing products
+Previous startup experience strongly preferred
 
 
+Bonus Points
 
-Where Your Expertise Makes an Impact:
-
-
-
-Deliver results through your technical expertise in software design, development, testing, deployment, and support of enterprise applications
-Collaborate with product owners, architects, UX designers, and engineering teams to deliver high-quality software solutions
-Apply your knowledge to improve application scalability, performance, reliability, and maintainability
- Participate in code reviews, architecture discussions, and continuous improvement initiatives
-Contribute to modern software engineering practices including Agile delivery, DevOps, and automated testing
-Support the development of secure, scalable, cloud-native applications that solve real business challenges
+You have demonstrated experience managing, delivering and owning the services end-to-end
+You have solid track record engaging and collaborating across the organization in different locations
+You have led the technical architecture of maintainable and scalable applications and data systems
 
 
-What Stands Out Amongst Top Talent:
+Why Narvar?
 
+We're on a mission to simplify the everyday lives of consumers. Post-purchase is a critical phase of the customer journey. That's why we created Narvar - a platform focused on driving customer loyalty through seamless post-purchase experiences that allow retailers to retain, engage, and delight customers. If you've ever bought something online, there's a good chance you've used our platform!
 
+From the hottest new direct-to-consumer companies to retail’s most renowned brands, Narvar works with GameStop, Sonos, Nike, and 1500+ other brands. With hubs in San Francisco, London, and Bangalore, we've served over 125 million consumers worldwide across 10+ billion interactions, 38 countries, and 55 languages.
 
-5+ years of experience in software development within enterprise or SaaS environments
-Strong experience with object-oriented programming, API development, relational databases, and modern software design principles
-Proven ability to build and support scalable applications in Agile development environments
-Experience working with cloud technologies, CI/CD pipelines, and automated testing frameworks
-Strong problem-solving skills and ability to work independently while collaborating effectively across teams
-Curiosity and willingness to learn new tools and methods
+Pioneering the post-purchase movement means navigating into the unknown. Our team thrives on this sense of adventure while nurturing a mindset of innovation. We're a home for big hearts and we leave our egos at the door. We work hard but we always make time to celebrate professional wins, baby showers, birthday parties, and everything in between.
 
+We are an equal-opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.
 
-Why Join Workerbee 
+Below is the estimated annual salary for this position and does not include the other components that make up a Narvar offer including: annual bonus, equity, and benefits.
 
-Earlier visibility into opportunities 
-Better-fit introductions 
-Access to meaningful work 
-Less application noise 
-A network that improves over time
+The range reflects the minimum and maximum target for new hire salaries for the position across the US. Within the range, individual compensation packages are based on factors unique to each candidate, including but not limited to, skill set, education and certifications, and work location.
 
+Narvar Pay Range
 
-Workerbee employees will not respond to direct communication attempts via email, phone, social media, or LinkedIn regarding status within the talent network or customer needs. Any such inquiries will not receive a response.
+$180,000—$230,000 CAD
 
+Please read our Privacy Policy to learn what personal information we collect in connection with your job application, and how we may use and share it.
