@@ -57,12 +57,12 @@
 
 % \quote{``Be the change that you want to see in the world."}
 \recipient
-  {Granum}
+  {Rocket Financial}
   {Remote}
 % The date on the letter, default is the date of compilation
 \letterdate{\today}
 % The title of the letter
-\lettertitle{Senior Software Engineer (P4)}
+\lettertitle{Senior Software Engineer (Java / AI-Enabled)}
 % How the letter is opened
 \letteropening{Dear Hiring Manager,}
 \letterclosing{Thank you for your time and consideration,}
@@ -90,15 +90,13 @@
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
 \begin{cvletter}
-  I'm applying for the Senior Software Engineer role on the LMN pod. I like that you measure success by customer outcomes rather than pull requests, and building the software a landscaper runs their whole business on is the kind of concrete, this-matters work I enjoy. I've worked in a pod structure before too, engineers alongside a PM, design, and QA, so the way you've set this up feels familiar.
+  I'm applying for the Senior Software Engineer role at Rocket Financial. Payments and financial infrastructure is a domain I'd like to grow into, and the combination of hard backend problems with explicit AI tooling makes the role stand out.
 
-  The most relevant thing I've done: I led a 2-3 engineer rewrite of a brittle legacy C\# system into containerized .NET microservices. The old one had frequent outages and was painful to work in; the new one is measurable and maintainable, with Datadog metrics for failure rate, throughput, and timing so we could actually see how it behaved. Owning a service end to end, from the design doc through the part where it has to stay up, is how I like to work.
+  My production JVM experience comes from Gosu, a Java-adjacent language that compiles on the JVM and shares Java's type system and idioms. I've been writing it since 2018 on a platform that processes over \$300M in annual insurance transactions. Alongside that I've built microservices in Python and TypeScript on AWS Lambda and EKS, owned 4 REST APIs serving 5 internal teams, and architected Canada's first pay-as-you-go insurance product: 10 Lambda functions, 2.8 million insured trips processed, 99.9\% uptime since launch.
 
-  I lean on design docs to get a team aligned on the hard calls. One I'm proud of is an RFC to move us to trunk-based development with feature flags, so we could decouple deploys from releases and roll changes out gradually. I treat reliability as part of the feature rather than a follow-up: instrument what I ship, set clear bars, and follow through on what production teaches us.
+  On the AI side: I use Claude Code and Cursor every day. I've gotten specific about what they're actually good for (iterating in unfamiliar domains, test scaffolding, boilerplate) and where they create drag (complex refactors, subtle business logic). I think helping a team build real habits around AI tools is one of the more valuable things a senior engineer can do right now.
 
-  On the AI side, I use coding assistants and agentic workflows every day, and I've got real opinions on where they speed things up and where they quietly add work. I'd be glad to help a team get good at using them well, with guardrails rather than blind trust.
-
-  Two honest notes. My frontend depth is in TypeScript rather than Angular specifically, and my cloud work has been on AWS rather than Azure. Neither has slowed me down much before. I ramp quickly, and the Azure side isn't far from what I already use, since I've worked with Azure DevOps and Artifacts. I'd rather be straight about that than oversell it.
+  Worth naming up front: I haven't used Spring Boot in production, and my frontend experience is TypeScript, not specifically React. Neither has stopped me before.
 
   I'd be happy to talk more.
 \end{cvletter}
