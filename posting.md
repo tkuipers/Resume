@@ -1,45 +1,40 @@
-About Cozey
+About the job
+Fuse Energy is a forward-thinking renewable energy startup on a mission to deliver a terawatt of renewable energy - fast. We're combining first-principles thinking with cutting-edge technology to build a radically better energy system. We raised $170M from top-tier investors including Multicoin, Balderton, Lakestar, Accel, Creandum, Lowercarbon, Ribbit, Box Group and strategic angels like Nico Rosberg, the Co-Founder of Solana and GPs behind Meta, Revolut, Spotify, Uber and more.
 
-At Cozey, we’re all about empowering possibilities in your home and making furniture shopping as easy and enjoyable as possible. Our thoughtfully designed, stylish furnishings adapt to evolving lifestyles, combining innovation with a commitment to great value and customer service. As a fast-growing, online-first brand, our success is driven by a team that shares our passion for redefining the furniture experience. 
+We're creating a fully integrated energy company: from developing solar, wind and hydrogen projects to real-time power trading and distributed energy installations. By selling directly to consumers, we cut out the middleman, lower costs and pass on savings to customers.
 
+But we're not stopping there. We're also building the Energy Network: a decentralised platform of smart devices that rewards users in Energy Dollars for electrifying their homes, shifting usage to off-peak hours, and helping balance the grid. This network strengthens grid stability - a critical foundation for scaling AI data centers and other energy-intensive industries.
 
+Responsibilities
 
-Why Engineering at Cozey 
+In this role you will work closely within product to build the core digital infrastructure for a next-generation energy company. You will use your experience to engineer backend infrastructure that is second-to-none.
 
-At Cozey Engineering, we’re not just building software, we're building the backbone of a modern, efficient, and customer-obsessed e-commerce operation. From order to delivery, every step is powered by in-house systems that drive speed, accuracy, and seamless customer experiences. Our team owns everything from operational infrastructure and warehouse management systems to backend services that power our website and logistics. 
+You'll be working across the back-end:
 
- 
+Constructing a real-time digital twin of our renewable generation and customer demand
+Developing messaging interfaces with our third-party providers
+Building high-volume pipelines for processing customer energy consumption
+Build the backend of a world class energy app
 
-The mission of the Senior Software Engineer at Cozey 
+For this role, you should be able to think on your feet and adapt to new business needs as well as take ownership of projects and drive change.
 
- 
+Requirements
 
-As Senior Software Engineer reporting to Manager, Software Engineering (WMS), your mission is to design and build the systems that power the post purchase journey of the product creating a seamless client experience. You’ll create scalable, in-house solutions that replace third-party tools, ensuring speed, accuracy, and innovation at every step. By owning projects from idea to deployment, you’ll help redefine how customers receive furniture with ease. 
+Demonstrable excellence as a Software Engineer
+Ideally 2+ years experience
+Proven ability to define and build complex systems
+Hands-on experience shipping highly-available production systems
+Clear communication
 
- 
+Bonus
 
-What you'll be doing 
+Experience with infrastructure as code (e.g. AWS CDK)
+Experience in the Energy sector
+Experience shipping consumer-facing products
 
-Build new features for our flagship product — the Cozey Operating System (COS) 
-Create in-house tools and platforms to replace third-party solutions — we love building things from the ground up. 
-Develop AI agents to automate and streamline warehouse management workflows 
-Collaborate closely with operations and product teams to identify pain points and rapidly launch impactful solutions 
-Own projects end-to-end — from design and architecture to implementation and deployment 
-We'd love to hear from you if you have 
+Benefits
 
-Extensive experience in strongly typed, object-oriented or TypeScript-like languages 
-Experience designing, building, and evolving robust REST APIs 
-Strong believer in testing culture – prioritizes unit and end-to-end testing 
-Deep appreciation for clean code, code reviews, and documentation 
-Passionate about solving real-world problems with scalable, maintainable solutions 
-Experience with AWS (Serverless, SQS, SNS etc) is a nice to have  
-We care about you  
-
-You will receive a competitive salary along with a comprehensive benefit package.  
-Endless opportunities for personal and professional growth in a fast-growing start-up.  
-A generous PTO policy that allows you the time you need to recharge.  
-A role where your strategies and decisions directly influence the company’s operations and growth.  
-A workspace where everyone is welcomed, heard, and valued. 
-
-
-Please note that we may use AI-powered tools to support parts of our hiring process, such as application screening and interview coordination. These tools help us focus our time where it matters most: getting to know candidates. All hiring decisions are made by people, and we’re committed to a fair and inclusive process.
+Competitive salary and an equity sign-on bonus
+Biannual bonus scheme
+Fully expensed tech to match your needs
+Paid annual leave
