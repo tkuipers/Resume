@@ -70,11 +70,10 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 ## Experience
 
 ### AMA - Alberta Motor Association
-**Role:** Software Architect  
-**Dates:** January 2023 - Present (3 years 1 month)  
+**Role:** Software Developer IV or Senior Software Developer
+**Dates:** January 2023 - Present (3 years 4 months)  
 **Location:** Edmonton, Alberta, Canada  
-**Technologies:** AWS (EC2, S3, Lambda, EKS, Route53, SQS, IAM, Aurora/RDS, ECR), Terraform, Java, Python, Jenkins, GitHub Actions, Azure Artifacts, Docker, Git, GitHub, OpenAPI, Gosu, TypeScript, Playwright, Kubernetes, Helm, Datadog, Linkerd
-
+**Technologies:** AWS (EC2, S3, Lambda, EKS, Route53, SQS, IAM, Aurora/RDS, ECR), Terraform, Java, Python, Jenkins, GitHub Actions, Azure Artifacts, Docker, Git, GitHub, OpenAPI, Gosu, TypeScript, Playwright, Kubernetes, Helm, Datadog, Linkerdu
 **Team:** 12 developers (technical lead for architectural decisions, not people manager). Work with contractors we've hired out for projects lacking capacity.
 
 **Summary:** Software Architect owning technical and some platform architecture for AMA's Guidewire PolicyCenter-based insurance platform managing ~180,000 policies, >$300M ARR. Own API contracts, lead internal development projects, and provide architectural guidance for engineering team. Responsible for both platform customizations within PolicyCenter and external integrations with partners and internal systems.
@@ -99,7 +98,6 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 - Own and maintain 4 critical REST APIs: Policy Quote API, Policy Bind API, Billing API, and MyPace ingestion API.
 - APIs serve 5 internal teams and external partners: epinks, DMED, Replicant, App team, Billing team.
 - **Business Impact:** APIs process $4.3M in annual transactions (MyPace alone).
-- **Technical Authority:** Approve all new endpoint additions (teams can modify existing endpoints without approval), maintain API design standards documented in Confluence.
 - Designed API contracts, versioning strategies, and integration patterns for downstream teams.
 - Technologies: OpenAPI, Python, TypeScript, REST
 
@@ -341,6 +339,7 @@ The goal is **pleasant to read, like a person wrote it**. Not robotic, not overc
 ## Technical Strengths & Depth
 
 **Primary Areas of Expertise:**
+- **Backend Systems & APIs:** 10+ years designing REST APIs, microservices, and distributed systems
 - **Backend Systems & APIs:** 10+ years designing REST APIs, microservices, and distributed systems
 - **Cloud Architecture:** AWS (EC2, Lambda, EKS, RDS, S3, SQS, IAM, Route53, ECR), multi-account architectures
 - **Infrastructure & DevOps:** Terraform, Docker, Kubernetes (EKS), CI/CD, infrastructure automation
