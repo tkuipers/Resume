@@ -1,71 +1,73 @@
-Senior Backend Engineer at Honor
-$160k – $180k
-Posted 1 month ago
-Save
-Apply
-As a Senior Backend Engineer at Honor:
+Essential Duties and Responsibilities:
 
-You care about building systems that have real-world impact.
-You’re creative and curious, and enjoy thinking outside the box.
-You thrive in diverse, cross-functional environments, collaborating with design, product, data, and care operations.
-You have a builder’s mindset, evolving systems from design through operation.
-You enjoy sharing knowledge, mentoring others, and contributing to a healthy, inclusive engineering culture.
-You’re an excellent, proactive communicator — able to translate complex ideas (both in writing and verbally) into clear, actionable solutions for technical and non-technical partners.
-We're looking for you to bring:
+Implement functionality in the Medrio platform, in accordance with standards and operating procedures
+Contribute to quality assurance processes through activities such as functional and unit testing, defect triage, and regular code reviews
+Create and maintain internal and external feature documentation, including design and test plans, API guides, and process documents
+Participate in team exercises (meetings, planning discussions, etc) in an inclusive manner
+Provide operational support for Medrio platform components in regulated, validated environments
+Customers or Clients:
 
-Strong backend engineering experience, with a track record of building and operating production systems.
-Experience designing relational data models and working with databases at scale.
-Familiarity with cloud platforms (AWS preferred) and service-oriented architectures.
-Experience with API design, distributed systems, and backend performance considerations.
-Proficiency in Python or transferable backend experience with a willingness to learn Python.
-About the role:
+ 
 
-You’ll work on core services that power how families find care and how Care Professionals do their work—systems that directly support Honor’s mission every day.
+Management
+Internal Team
+Consultants
+ 
 
-Depending on your interests and experience, you may join one of the following teams:
+Education and Years of Experience:
 
-Workforce Team — building the systems that support Care Professionals, including hiring, scheduling, and workforce optimization.
-DemandGen Team — powering Honor’s public digital experiences and growth channels that help thousands of families find the care they need.
-Growth Team — developing a multi-channel sales and communication stack (phone, sms, email) that connects families, Care Professionals, and care operations.
-Why you’llloveworking with us
+BS degree and 3+ years as a senior full stack developer
+Working Conditions (include any required travel): 
 
-Your work will shape how people discover and receive the care they need.
-You’ll solve real, complex problems at the intersection of engineering, operations, and human impact.
-You’ll collaborate with thoughtful, mission-driven teammates across engineering, product, design, and operations.
-You’ll have ownership, autonomy, and the opportunity to grow as both an engineer and a product-minded technologist.
+Standard remote office position
 
------------------
 
-Staff Software Engineer at Honor
-$194k – $216k
-Posted 1 month ago
-Save
-Apply
-Who you are
-You care about building systems that have real-world impact.
-You’re creative and curious, and enjoy thinking outside the box.
-You thrive in diverse, cross-functional environments, collaborating with design, product, data, and care operations.
-You have a builder’s mindset, evolving systems from design through operation.
-You ensure the final product across the team is of high quality and the clients benefit from our attention to detail and debugging procedures.
-You enjoy sharing knowledge, mentoring others, and contributing to a healthy, inclusive engineering culture.
-You’re an excellent, proactive communicator — able to translate complex ideas (both in writing and verbally) into clear, actionable solutions for technical and non-technical partners.
-You’re quick to spot inefficiencies in processes across your team and engineering and make actionable steps and recommendations to amend them.
-What you bring
-Strong backend engineering experience, with a track record of building and operating production systems.
-Experience designing relational data models and working with databases at scale.
-Familiarity with cloud platforms (AWS preferred) and service-oriented architectures.
-Experience with API design, distributed systems, and backend performance considerations.
-Proficiency in Python or transferable backend experience with a willingness to learn Python.
-Familiarity with frontend technologies such as React (Next.js/Vite/etc), Typescript, and Tailwind.
-Experience with using AI tooling to assist with productivity in both coding and deployment
-Where you’ll work
-You’ll work on core services that power how families find care and how Care Professionals do their work—systems that directly support Honor’s mission every day.
 
-You’ll be working with the DemandGen Team — powering Honor’s public digital experiences and growth channels that help thousands of families find the care they need.
+Skills/Experience:
 
-Why you’llloveworking with us
+Associate: 3 years professional Software Development experience, or an equivalent combination of education and experience;
+Senior: 6 years professional Software Development experience, or an equivalent combination of education and experience;
+Experience developing enterprise-grade applications using C# (WebAPI, ASP.NET Core, etc.)
+Experience writing and optimizing T-SQL, and/or utilizing and optimizing EntityFrameworkCore in production environments
+Experience developing enterprise-grade web applications using HTML, CSS, and Javascript/Typescript
+Strong critical-thinking and problem-solving skills
+Strong attention to detail, processes, quality assurance
+Strong understanding of core software development competencies:
+Software Design (Patterns, SOLID, etc.)
+Defect Triage/Debugging
+Research
+Code Literacy
+Interface Negotiations
+Other Skills and Abilities:
 
-Your work will shape how people discover and receive the care they need.
-You’ll solve real, complex problems at the intersection of engineering, operations, and human impact.
-You’ll collaborate with thoughtful, mission-driven teammates across engineering, product, design, and operations.
-You’ll have ownership, autonomy, and the opportunity to grow as both an engineer and a product-minded technologist.
+Experience in a DevOps culture
+Experience with microservice/distributed architectures
+Experience developing high-performance HTTP APIs for public consumption
+Experience with any of the following ORMs:
+NHibernate
+Dapper
+EntityFrameworkCore
+Experience with any of the following web frameworks:
+Angular.io
+BlazorWasm
+Stencil
+React
+Experience working in an Agile environment, and/or Agile certifications
+Experience with any of the following testing frameworks/toolsets:
+NUnit
+JustMock
+Karma
+Selenium
+Experience with Software Archeology
+About Medrio:
+
+At Medrio, we look for smart, capable, and conscientious people to help us expand our product capabilities, grow our business, and better serve our customers. Our employees love working for us because they get to develop, market, and sell a product that advances human health, and they enjoy many perks, including
+
+Great benefits: We offer medical, dental, vision, and life/LTD insurance, and we cover 100% of our employees’ health insurance premiums and 50% of dependent premiums.
+Wellness: Medrio values our staff’s well-being. To prove it, we promote an atmosphere of work/life balance, including flexible work schedules and locations.
+Weekly company-wide standup.
+The Medrio team is made up of individuals with a wide array of skills and interests, but all have a passion for providing the best possible user experience for our customers. We value collaboration, ingenuity and creating a culture of excellence!
+
+Salary Range: $170,000 - 190,000 USD
+
+To see detailed information on the data we collect during the application process, and how Medrio complies with data privacy laws, visit our Careers page.
