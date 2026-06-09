@@ -1,73 +1,73 @@
-Essential Duties and Responsibilities:
+At Vanta, our mission is to help businesses earn and prove trust. We believe that security should be monitored and verified continuously, and we empower companies to practice better security and prove it with ease. Vanta has a kind and talented team, and while some have prior security experience, many have been successful at Vanta without it. 
 
-Implement functionality in the Medrio platform, in accordance with standards and operating procedures
-Contribute to quality assurance processes through activities such as functional and unit testing, defect triage, and regular code reviews
-Create and maintain internal and external feature documentation, including design and test plans, API guides, and process documents
-Participate in team exercises (meetings, planning discussions, etc) in an inclusive manner
-Provide operational support for Medrio platform components in regulated, validated environments
-Customers or Clients:
+As a Senior Applied AI Engineer at Vanta, you will play a crucial role in shaping Vanta’s AI offerings, setting technical strategy, and leading projects that leverage AI to deliver smarter, faster outcomes for our customers. You'll be part of a team integrating AI into the Vanta product, working alongside a multidisciplinary group of product engineers, machine learning engineers, product managers, designers, and security and compliance experts to implement, scale, and maintain AI-enabled product experiences. In this role, you’ll build products that enable Vanta’s customers to leverage AI to accelerate their journey towards compliance, managing risk, and earning trust.
 
- 
+Visit our Vanta Engineering Blog to learn more about what our team is working on! 
 
-Management
-Internal Team
-Consultants
- 
+What you’ll do as an engineer working on Applied AI at Vanta:
 
-Education and Years of Experience:
+Work cross-functionally to design and implement AI-powered features to deliver customer value and integrate LLMs with Vanta’s existing products and systems. You’ll work with other product engineers across Vanta to understand how AI systems can accelerate product adoption at Vanta
 
-BS degree and 3+ years as a senior full stack developer
-Working Conditions (include any required travel): 
+Instrument evaluations, guardrails, and monitoring, and review customer usage to continually improve quality
 
-Standard remote office position
+Collaborate with AI Platform engineers shaping foundational AI systems and tooling that accelerate product teams
 
+Make pragmatic tradeoffs that consider business priorities, user experience, and a sustainable technical foundation
 
+Mentor engineers, champion good technical and product instincts, and model a collaborative, high-ownership engineering culture
 
-Skills/Experience:
+How to be successful in this role:
 
-Associate: 3 years professional Software Development experience, or an equivalent combination of education and experience;
-Senior: 6 years professional Software Development experience, or an equivalent combination of education and experience;
-Experience developing enterprise-grade applications using C# (WebAPI, ASP.NET Core, etc.)
-Experience writing and optimizing T-SQL, and/or utilizing and optimizing EntityFrameworkCore in production environments
-Experience developing enterprise-grade web applications using HTML, CSS, and Javascript/Typescript
-Strong critical-thinking and problem-solving skills
-Strong attention to detail, processes, quality assurance
-Strong understanding of core software development competencies:
-Software Design (Patterns, SOLID, etc.)
-Defect Triage/Debugging
-Research
-Code Literacy
-Interface Negotiations
-Other Skills and Abilities:
+At least 7 years of industry experience as a software engineer
 
-Experience in a DevOps culture
-Experience with microservice/distributed architectures
-Experience developing high-performance HTTP APIs for public consumption
-Experience with any of the following ORMs:
-NHibernate
-Dapper
-EntityFrameworkCore
-Experience with any of the following web frameworks:
-Angular.io
-BlazorWasm
-Stencil
-React
-Experience working in an Agile environment, and/or Agile certifications
-Experience with any of the following testing frameworks/toolsets:
-NUnit
-JustMock
-Karma
-Selenium
-Experience with Software Archeology
-About Medrio:
+You’ve shipped LLM-backed products and have experience with prompting, RAG, and/or agent frameworks
 
-At Medrio, we look for smart, capable, and conscientious people to help us expand our product capabilities, grow our business, and better serve our customers. Our employees love working for us because they get to develop, market, and sell a product that advances human health, and they enjoy many perks, including
+You have experience designing, building, and scaling full-stack applications, including backend systems, APIs, and frontend interfaces. You have familiarity with TypeScript, React, and Node.js, or a willingness to learn!
 
-Great benefits: We offer medical, dental, vision, and life/LTD insurance, and we cover 100% of our employees’ health insurance premiums and 50% of dependent premiums.
-Wellness: Medrio values our staff’s well-being. To prove it, we promote an atmosphere of work/life balance, including flexible work schedules and locations.
-Weekly company-wide standup.
-The Medrio team is made up of individuals with a wide array of skills and interests, but all have a passion for providing the best possible user experience for our customers. We value collaboration, ingenuity and creating a culture of excellence!
+You have experience improving AI systems, creating eval sets, and driving quality hill-climbing
 
-Salary Range: $170,000 - 190,000 USD
+You have experience mentoring other engineers and collaborating with product and design
 
-To see detailed information on the data we collect during the application process, and how Medrio complies with data privacy laws, visit our Careers page.
+You have worked at rapidly scaling startups and large companies, especially with environments that prioritize a bias for action
+
+You are action-driven, willing to roll up your sleeves and engage directly with users. You aren’t afraid to put on your product hat. While you bring strong opinions, you prioritize building a platform that meets users where they are
+
+What you can expect as a Vanta'n:
+
+Industry-competitive salary and equity
+
+100% covered medical, dental, and vision benefits with dependents coverage
+
+Pension contribution
+
+16 weeks paid Parental Leave for all new parents
+
+Health & wellness stipend
+
+Remote workspace, internet, and cellphone stipend
+
+Flexible work hours and location
+
+21 days of Vacation Time and 80 hours of Sick Leave
+
+11 company-paid holidays
+
+Virtual team building activities, lunch and learns, and other company-wide events!
+
+Offices in SF, NYC, London, Dublin, Tel Aviv, and Sydney
+
+To provide greater transparency to candidates, we share base pay ranges for all US-based job postings regardless of state. We set standard base pay ranges for all roles based on function, level, and country location, benchmarked against similar-stage growth companies. Final offer amounts are determined by multiple factors and may vary based on candidate location, skills, depth of work experience, and relevant licenses/credentials.
+
+#LI-remote
+
+At Vanta, we are committed to hiring diverse talent of different backgrounds and as such, it is important to us to provide an inclusive work environment for all. We do not discriminate on the basis of race, gender identity, age, religion, sexual orientation, veteran or disability status, or any other protected class. As an equal opportunity employer, we encourage and welcome people of all backgrounds to apply.
+
+About Vanta
+
+We started in 2018, in the wake of several high-profile data breaches. Online security was only becoming more important, but we knew firsthand how hard it could be for fast-growing companies to invest the time and manpower it takes to build a solid security foundation. Vanta was inspired by a vision to restore trust in internet businesses by enabling companies to improve and prove their security. From our early days automating security monitoring for compliance standards like SOC 2, HIPAA and ISO 27001 to creating the world's leading Trust Management Platform, our vision remains unchanged. 
+
+Now more than ever, making security continuous—not just a point-in-time check— is essential. Thousands of companies rely on Vanta to build, maintain and demonstrate their trust— all in a way that's real-time and transparent.
+
+Referral Instructions
+
+If you are being referred for the role, please contact that person to apply on your behalf.
