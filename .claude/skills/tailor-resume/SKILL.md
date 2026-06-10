@@ -58,6 +58,17 @@ Before writing or editing any content, read all of these in full. They are
 - **No side projects** in resume or cover letter content, even when the posting
   asks for adjacent skills. (See memory: never mention side projects.)
 - **Don't say "my stack is X."** Use "I work well in X."
+- **technologies.tex: never add an entry to mirror posting language.** Every
+  item must be in history.mdc as something Tyler actually used in a documented
+  role. "The posting mentions X so I'll add X" is fabrication. If a posting asks
+  for something not in history.mdc, omit it or ask the user — do not invent it.
+- **RFC claims must match what is actually documented.** "Authored RFCs that
+  changed how 3 teams ship" is a confirmed fabrication — the "3 teams" figure
+  belongs to the DevOps platform adoption, not to any RFC. No RFC is documented
+  as having changed how any team ships. The feature flags RFC is in pilot; the
+  BCAA RFC is authored but not yet launched. Approved framing: "authored RFCs
+  on development practices and system architecture." Never attach adoption,
+  impact, or team-count claims to RFC work.
 
 ## Step 1 — Get the posting and confirm intent
 
@@ -93,15 +104,62 @@ Then tailor the relevant subset of these files. Edit the section files, never
 `resume.tex` itself, for content:
 
 - `resume/summary.tex` — first-person "About Me." Frame as value to *them*, not a
-  history recap. Conversational, varied sentence length, no buzzwords.
+  history recap. Conversational, varied sentence length, no buzzwords. Specific rules:
+  - **Lead with something differentiating, not a generic opener.** "I've been writing
+    software for X years" is table stakes. The 2024 Guidewire Innovation Award (1 of
+    3 worldwide) is Tyler's strongest differentiator and belongs in the summary for
+    almost every application. It's the signal that sticks in a reader's memory.
+    Check history.mdc before writing; use this or the most relevant differentiator
+    for the role, but don't bury the Award in bullets if it's relevant.
+  - **No generic closers.** Phrases like "I like owning things end to end" or "I
+    care about X" could appear on anyone's resume. If a sentence adds nothing that
+    a reader couldn't say about any competent candidate, cut it. Back any "I care
+    about" claim with a specific example already in the summary, or don't write it.
+  - **Never close the summary on a list of languages or tools.** "I work well in
+    Python, TypeScript, and Java/JVM" is a credentials statement; it belongs in
+    technologies.tex, not the summary closer. Close on impact or orientation:
+    what Tyler finds meaningful, or what he brings to an org. Tailor this to the
+    posting — a genuinely relevant close is always better than a generic one. If
+    no obvious tailored angle exists, fall back to: "I find work that enables
+    others the most satisfying."
+
 - `resume/experience.tex` — reorder/reword bullets to surface the most relevant
   work first. Keep concrete numbers, project names, and tech in parentheses.
+  - **Staff signals must have their own space.** Architecture Steering Committee
+    membership, RFC authorship, and cross-team technical influence should not share
+    a bullet with weaker signals like mentoring or process participation. If they end
+    up in a comma list alongside softer items, split the bullet.
+  - **Never include "worked in cross-functional pods alongside PM, design, and QA."**
+    history.mdc is explicit that Tyler participated only; it is a weak hedging signal
+    and must not appear on the resume.
+
 - `resume/skills.tex` — adjust the soft-skill blurbs to match the role's emphasis.
+  Blurbs should add voice and perspective not already explicit in the experience
+  bullets. If a blurb just re-tells the same story as an experience bullet, it is
+  wasted space. Aphoristic closers ("To me X is not Y, it's Z" / "I believe X is
+  part of Y, not a follow-up") rarely add information — the concrete example before
+  them already does the work. Cut or replace them.
+
 - `resume/technologies.tex` — surface the stack the posting names (mirror its
   terminology where truthful; include acronym + full term for key tech).
 - `coverletter.tex` — rewrite fresh for this posting. First person, warm but
   brief, varied sentence starts, complete sentences, personality okay, end with
   something like "I'd be happy to talk more." No em dashes.
+  - **Opening paragraph: Tyler writes this. Ask before writing anything else.**
+    Before drafting any of the letter body, stop and ask Tyler for his opening
+    1-2 sentences. He dictates it; you transcribe it. Reason: the opener is where
+    a small amount of company-specific enthusiasm is natural and expected, but it
+    is extremely easy to overdo it or make it sound generic ("excited about the
+    scale," "mission aligns with my values"). Tyler's own voice here reads human
+    where a generated opener would pander. Once he provides it, clean up spelling,
+    grammar, and clarity minimally — do not rewrite or change his meaning — then
+    write the rest of the body around it.
+  - **Paragraph transitions must stand alone.** Do not open a paragraph by
+    echoing or mirroring the posting ("the X side fits too," "your requirements
+    around Y align with..."). A reader who hasn't seen the posting should follow
+    the letter fully. The letter connects to the posting through content, not
+    through echo. Introduce each topic on its own terms: "I have experience in
+    X as well" or just open the paragraph directly.
 
 The summary and cover letter above describe **normal mode**. In **honeypot mode**
 you do not write that prose yourself: see Step 2b.
@@ -113,6 +171,18 @@ Style reminders while writing (from ai-tells.mdc + experience.mdc):
   seamlessly, pivotal, crucial, foster, elevate, harness, etc. — full list in
   ai-tells.mdc).
 - Specificity reads as human; generic achievement language reads as AI.
+- **No company pandering.** Do not write "your mission aligns with my values,"
+  "I'm excited about what you're building," "this space is my passion," "your
+  culture is exactly what I've been looking for," or any other mission-speak.
+  It signals AI-generated cover letters to human readers and adds nothing to
+  the fit case. Let the work match speak for itself. This is a disqualifier
+  with savvy hiring teams.
+- **Surface staff-level signals prominently.** Before finalizing, confirm these
+  are not buried: RFC authorship, Architecture Steering Committee membership,
+  cross-team technical influence, proactive initiatives (the DevOps platform,
+  feature flags RFC). These are what separate a "completes tasks" senior from
+  a "shapes the system" staff candidate. If any appear in a comma list
+  alongside weaker items, split them out.
 
 ## Step 2b — Authoring mode and the humanizer pass
 
@@ -193,6 +263,10 @@ Stop and ask a specific question, do NOT guess, whenever any of these come up:
   create the tag without the posting URL. If you don't have it, STOP and ask for
   it, even when the user has said "tag" or "tag and push." A request to tag is
   not permission to tag without the URL.**
+- **The cover letter opening paragraph** — always. Ask Tyler for his opening 1-2
+  sentences before writing any of the letter body. This is not optional and is
+  not batched with end-of-run questions. Ask it first, before tailoring anything
+  else if possible, so he can think about it while you work.
 - The posting has application instructions you're unsure how to handle.
 - Any time you notice yourself thinking "this probably means..." or "I'll assume..."
 
@@ -212,6 +286,20 @@ Run the verification checklist from experience.mdc against everything you wrote:
 - [ ] Every accomplishment is documented; no invented projects/responsibilities.
 - [ ] No em dashes, no "multi-tenant", no "org-wide", no headlined Redis/ELK.
 - [ ] No banned words/phrases; sentence length varies; no hedging.
+- [ ] No company pandering in summary or cover letter (no mission-speak, no
+      "your culture/mission/values," no enthusiasm for the company's stated goals).
+- [ ] Staff-level signals are not buried: RFC authorship, Architecture Steering
+      Committee, cross-team influence, and proactive initiatives appear with their
+      own breathing room, not hidden in comma lists.
+- [ ] Summary leads with something differentiating (Innovation Award or equivalent),
+      not a generic opener. No generic closers ("I like owning X," "I care about Y")
+      without a specific example backing them in the same summary.
+- [ ] skills.tex blurbs add perspective not already in the experience bullets. No
+      aphoristic filler sentences at the end of blurbs.
+- [ ] "Worked in cross-functional pods" does not appear anywhere in the resume.
+- [ ] No fabricated technologies: every entry in technologies.tex is in history.mdc.
+- [ ] RFC claims don't overstate adoption: feature flags RFC = "in pilot," BCAA RFC
+      = "authored." Never "changed how X teams ship" or similar impact claim.
 - [ ] Posting's critical keywords are mirrored where truthful.
 - [ ] Correct authoring mode (Step 2b): in honeypot mode, the summary and cover
       letter are outline / paragraph-plan only, with the prose left for Tyler,
