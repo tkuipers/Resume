@@ -62,7 +62,7 @@
 % The date on the letter, default is the date of compilation
 \letterdate{\today}
 % The title of the letter
-\lettertitle{Staff+ Software Engineer}
+\lettertitle{Staff Software Engineer - Platform}
 % How the letter is opened
 \letteropening{Dear Hiring Manager,}
 \letterclosing{Thank you for your time and consideration,}
@@ -91,13 +91,13 @@
 %-------------------------------------------------------------------------------
 \begin{cvletter}
 
-  I saw the posting on Hacker News and it caught my attention. While I've never worked in industrial process analytics, it is an intriguing problem set that I would like to spend time exploring.
+  I saw this on Hacker News and it caught my attention. Platform engineering is the bulk of what I spend my time on, and the work you're describing maps closely to what I've been building.
 
-  My background is backend systems and platform engineering. Most of my production work is Java adjacent and on the JVM (via Gosu, a JVM language used by Guidewire), TypeScript, Node.js, and Python. At Arterys, a medical imaging company, I contributed to the Node.js and TypeScript backend services that ran their AI algorithms on clinical imaging data and returned results to the platform. I'm familiar with data-intensive backend with reliability requirements.
+  The developer platform story is probably the clearest overlap. I built a self-service infrastructure platform solo at AMA that took environment provisioning from 2-3 weeks down to 2 hours (60x): environment create/destroy, database snapshots, pull-from-prod, ADO metrics integration. Fifteen people across 3 teams use it and it spun up 120+ environments in 2025. I also own 4 REST APIs serving 5 internal teams and external partners, design the contracts and versioning strategy, and maintain API design standards across the team.
 
-  The craftsmanship emphasis in the posting resonated with me. TDD has been core to how I work since 2018. I designed a test framework that reduced defects by 30\% on subsequent projects, got adopted by \~15 developers, and is still running four years later. I also built a self-service developer platform solo that took environment provisioning from 2-3 weeks down to 2 hours because I think developer experience is part of the product. I fix bugs properly rather than working around them.
+  On the infrastructure side: AWS is my home cloud. Lambda, EKS, S3, SQS, IAM, Aurora/RDS across multiple AWS accounts. I deployed a production EKS cluster running cert-manager, Datadog, Karpenter, Linkerd, and microservices, packaged with Helm. I write the RFCs that align teams on hard architectural calls and sit on AMA's Architecture Steering Committee.
 
-  On the Staff side: I own the API contracts for a 12-person team, write the RFCs that get the team aligned on hard architectural calls, sit on AMA's Architecture Steering Committee, and mentor developers through code reviews and legacy codebases. I'd be happy to talk more.
+  One thing worth being upfront about: I haven't built multi-tenant systems in production. My AMA work is internal and single-tenant. That said, I've been reading up on isolation approaches (schema-per-tenant, row-level security, dedicated databases) and I think I understand the tradeoff space well enough to reason about the right approach for a given context. I'd be happy to talk more.
 
 \end{cvletter}
 
