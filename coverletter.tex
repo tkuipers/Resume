@@ -57,12 +57,12 @@
 
 % \quote{``Be the change that you want to see in the world."}
 \recipient
-  {Seeq}
+  {Better Stack}
   {Remote}
 % The date on the letter, default is the date of compilation
 \letterdate{\today}
 % The title of the letter
-\lettertitle{Staff Software Engineer - Platform}
+\lettertitle{Software Engineer}
 % How the letter is opened
 \letteropening{Dear Hiring Manager,}
 \letterclosing{Thank you for your time and consideration,}
@@ -91,13 +91,11 @@
 %-------------------------------------------------------------------------------
 \begin{cvletter}
 
-  I saw this on Hacker News and it caught my attention. Platform engineering is the bulk of what I spend my time on, and the work you're describing maps closely to what I've been building.
+  The AI tooling requirement is what caught my eye. Better Stack's expectation that engineers actively use Claude Code, Cursor, and agentic workflows isn't a bullet-point skill for me, it's just how I work. I've formed real opinions on where these tools speed things up and where they quietly create work. I know when to trust the output and when to reason through the problem myself. Not a vibe coder.
 
-  The developer platform story is probably the clearest overlap. I built a self-service infrastructure platform solo at AMA that took environment provisioning from 2-3 weeks down to 2 hours (60x): environment create/destroy, database snapshots, pull-from-prod, ADO metrics integration. Fifteen people across 3 teams use it and it spun up 120+ environments in 2025. I also own 4 REST APIs serving 5 internal teams and external partners, design the contracts and versioning strategy, and maintain API design standards across the team.
+  The solo shipping angle also resonated. At AMA I built a self-service developer platform alone that took environment provisioning from 2-3 weeks down to 2 hours (60x): create/destroy, database snapshots, pull-from-prod. I also architected the backend for Canada's first pay-as-you-go auto insurance product: 10 Lambda functions across multiple AWS accounts, 99.9\% uptime since launch, \$4.3M in annual revenue. I like picking up a hard problem and shipping it.
 
-  On the infrastructure side: AWS is my home cloud. Lambda, EKS, S3, SQS, IAM, Aurora/RDS across multiple AWS accounts. I deployed a production EKS cluster running cert-manager, Datadog, Karpenter, Linkerd, and microservices, packaged with Helm. I write the RFCs that align teams on hard architectural calls and sit on AMA's Architecture Steering Committee.
-
-  One thing worth being upfront about: I haven't built multi-tenant systems in production. My AMA work is internal and single-tenant. That said, I've been reading up on isolation approaches (schema-per-tenant, row-level security, dedicated databases) and I think I understand the tradeoff space well enough to reason about the right approach for a given context. I'd be happy to talk more.
+  My backend is primarily TypeScript, Python, and PostgreSQL. At Arterys I built the TypeScript and Node.js services that ran medical AI algorithms on clinical imaging data. Your stack is new to me (Rails, Vue.js), but I pick up web stacks quickly and the fundamentals transfer. I'd be happy to talk more.
 
 \end{cvletter}
 
